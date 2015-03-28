@@ -1,5 +1,7 @@
 {
     "name": "Night & Day",
+    "slug": "night-and-day",
+    "logo": "images/logo/night-and-day.png",
     "images": [
         "images/menu/night-and-day/1.jpg",
         "images/menu/night-and-day/2.jpg",
