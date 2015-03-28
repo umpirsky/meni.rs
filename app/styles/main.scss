@@ -1,0 +1,25 @@
+body {
+  font-family: arial, sans-serif;
+  color: #666;
+  background-color: #f2f2f2;
+}
+
+h2 {
+  margin: 0 0 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.home-section {
+  padding-top: 50px;
+  display: block;
+  position: relative;
+}
+
+.gallery-item > div {
+  margin-bottom: 30px;
+}
+
+.margin-50 {
+  margin-bottom: 50px !important;
+}
