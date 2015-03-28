@@ -5,17 +5,15 @@
                 <h2>{{ restaurant.name }}</h2>
             </div>
             <div class="col-lg-8 col-lg-offset-2">
-                <img ng-src="{{ restaurant.logo }}" class="img-responsive img-centered restaurant-logo" alt="img">
+                <img ng-src="{{ restaurant.logo }}" class="img-centered restaurant-logo" alt="img">
             </div>
         </div>
     </div>
 </div>
 <div class="container">
     <div class="row">
-        <div ng-repeat="image in restaurant.images" class="col-xs-12 col-sm-6 col-md-4">
-            <a ng-href="{{ image }}">
-                <img ng-src="{{ image }}" class="img-responsive" alt="img">
-            </a>
-        </div>
+        <a ng-repeat="image in restaurant.images" ng-href="{{ image }}">
+            <img ng-src="{{ image }}" alt="{{ restaurant.name }}">
+        </a>
     </div>
 </div>
