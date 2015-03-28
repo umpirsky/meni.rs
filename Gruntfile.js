@@ -362,7 +362,7 @@ module.exports = function (grunt) {
             '*.{ico,png,txt}',
             '*.html',
             'views/{,*/}*.html',
-            'images/{,*/}*.{webp}',
+            'images/**/*',
             'restaurants/*.json'
           ]
         }, {
