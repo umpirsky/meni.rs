@@ -211,11 +211,11 @@ module.exports = function (grunt) {
         generatedImagesDir: '.tmp/images/generated',
         imagesDir: '<%= yeoman.app %>/images',
         javascriptsDir: '<%= yeoman.app %>/scripts',
-        fontsDir: '<%= yeoman.app %>/styles/fonts',
+        // fontsDir: '<%= yeoman.app %>/styles/fonts',
         importPath: './bower_components',
         httpImagesPath: '/images',
         httpGeneratedImagesPath: '/images/generated',
-        httpFontsPath: '/styles/fonts',
+        // httpFontsPath: '/styles/fonts',
         relativeAssets: false,
         assetCacheBuster: false,
         raw: 'Sass::Script::Number.precision = 10\n'
@@ -362,7 +362,8 @@ module.exports = function (grunt) {
             '*.{ico,png,txt}',
             '*.html',
             'views/{,*/}*.html',
-            'images/{,*/}*.{webp}'
+            'images/{,*/}*.{webp}',
+            'restaurants/*.json'
           ]
         }, {
           expand: true,
@@ -389,8 +390,7 @@ module.exports = function (grunt) {
       ],
       dist: [
         'compass:dist',
-        'imagemin',
-        'svgmin'
+        'imagemin'
       ]
     },
 
