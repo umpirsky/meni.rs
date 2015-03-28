@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Pasta Bar 2x2",
+        "slug": "dva-puta-dva",
+        "logo": "images/logo/dva-puta-dva.jpg"
+    },
+    {
+        "name": "Pink Panter",
+        "slug": "pink-panter",
+        "logo": "images/logo/pink-panter.jpg"
+    },
+    {
+        "name": "The Regent",
+        "slug": "the-regent",
+        "logo": "images/logo/the-regent.png"
+    },
+    {
+        "name": "Night & Day",
+        "slug": "night-and-day",
+        "logo": "images/logo/night-and-day.png"
+    },
+    {
+        "name": "Cezar",
+        "slug": "cezar",
+        "logo": "images/logo/cezar.png"
+    },
+    {
+        "name": "Pizza Boss",
+        "slug": "pizza-boss",
+        "logo": "images/logo/pizza-boss.jpg"
+    }
+]
