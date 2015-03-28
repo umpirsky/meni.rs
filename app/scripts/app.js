@@ -7,9 +7,10 @@ angular
   .module('meniApp', [
     'ngAnimate',
     'ngResource',
-    'ngRoute'
+    'ngRoute',
+    'bootstrapLightbox'
   ])
-  .config(function ($routeProvider) {
+  .config(function ($routeProvider, LightboxProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
@@ -22,4 +23,9 @@ angular
       .otherwise({
         redirectTo: '/'
       });
+
+    LightboxProvider.templateUrl = 'views/lightbox.html';
+    LightboxProvider.getImageUrl = function (image) {
+      return image;
+    };
   });
