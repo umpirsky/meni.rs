@@ -19,5 +19,12 @@ angular
       .when('/', {
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
+      })
+      .when('/meni/:slug', {
+        templateUrl: 'views/menu.html',
+        controller: 'MenuCtrl'
+      })
+      .otherwise({
+        redirectTo: '/'
       });
   });

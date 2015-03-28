@@ -2,11 +2,11 @@
 
 /**
  * @ngdoc function
- * @name meniApp.controller:MainCtrl
+ * @name meniApp.controller:MenuCtrl
  * @description
  */
 angular.module('meniApp')
-  .controller('MainCtrl', function ($scope) {
+  .controller('MenuCtrl', function ($scope) {
     $scope.awesomeThings = [
       'AngularJS',
       'Karma'
