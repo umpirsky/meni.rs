@@ -1,5 +1,7 @@
 <div class="row">
     <div ng-repeat="image in restaurant.images" class="col-xs-12 col-sm-6 col-md-4">
-        <img ng-src="{{ image }}" class="img-responsive" alt="img">
+        <a ng-href="{{ image }}">
+            <img ng-src="{{ image }}" class="img-responsive" alt="img">
+        </a>
     </div>
 </div>
