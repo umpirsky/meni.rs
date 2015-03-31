@@ -1,42 +1,297 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700);
+
 body {
-  font-family: arial, sans-serif;
-  color: #666;
-  background-color: #f2f2f2;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #666666;
+  -webkit-font-smoothing: antialiased;
 }
 
-h2 {
-  margin: 0 0 30px;
-  font-weight: 700;
-  letter-spacing: 1px;
+h1 {
+  color: #666666;
 }
 
-.home-section {
-  padding-top: 50px;
+.scrollpoint {
+  opacity: 0;
+}
+
+.section-heading {
+  margin: 60px 0 80px;
+  text-align: center;
+}
+
+.section-heading h1 {
+  display: inline-block;
+  font-size: 55px;
+  margin-bottom: 0;
+}
+
+.section-heading p {
+  font-size: 25px;
+  color: #999999;
+  font-weight: 300;
+}
+
+.section-heading .divider:after {
+  content: "";
+  position: relative;
+  height: 4px;
+  width: 60px;
   display: block;
+  text-align: center;
+  margin: 13px auto;
+  -webkit-border-radius: 5em;
+  -moz-border-radius: 5em;
+  -ms-border-radius: 5em;
+  -o-border-radius: 5em;
+  border-radius: 5em;
+}
+
+section#main {
   position: relative;
 }
 
-.gallery-item > div {
-  margin-bottom: 30px;
+section#main .restaurant-item {
+  text-align: center;
+  font-size: 17px;
+  line-height: 25px;
+  color: #999999;
 }
 
-.gallery-item > div img {
-  background-color: #fff;
+section#main .slider {
+  margin: 50px 0;
 }
 
-.margin-50 {
-  margin-bottom: 50px !important;
+section#main .slider div img {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  padding: 10px;
+  display: inline;
 }
 
-img.img-centered {
-  margin: 0 auto;
+footer {
+  padding: 80px 0;
+  text-align: center;
 }
 
-img.restaurant-logo {
+footer a > img {
   width: 100px;
-  height: 100px;
 }
 
-.lightbox-nav {
-  margin-top: 14px;
+footer .social {
+  display: block;
+  margin-top: 30px;
+}
+
+footer .social a {
+  margin: 0 8px;
+  padding: 15px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  display: inline-block;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+footer .social a i {
+  width: 1em;
+}
+
+footer .rights {
+  margin-top: 30px;
+}
+
+footer .rights a {
+  text-decoration: underline;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  font-weight: bold;
+}
+
+footer .rights a:hover {
+  text-decoration: none;
+}
+
+section {
+  position: relative;
+  padding-bottom: 90px;
+}
+
+section::before,
+section::after {
+  position: absolute;
+  content: '';
+  pointer-events: none;
+  overflow: hidden;
+}
+
+form#search {
+  width: 50%;
+  margin: auto;
+  padding-top: 30px;
+}
+
+form .form-control {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-border-radius: 5em;
+  -moz-border-radius: 5em;
+  -ms-border-radius: 5em;
+  -o-border-radius: 5em;
+  border-radius: 5em;
+  height: 40px;
+  line-height: 40px;
+  padding: 20px;
+  color: #cfcfcf;
+  border: 2px solid #cccccc;
+}
+
+@media screen and (max-width: 640px) {
+  .logo {
+    width: 100px;
+    height: auto;
+  }
+}
+
+section .section-heading .divider:after {
+  background: #cc6698;
+}
+
+section#main .slider {
+  margin: 50px 0;
+}
+section#main .slider div img {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  border: 2px solid #e5e5e5;
+  padding: 10px;
+  display: inline;
+  width: 225px;
+}
+
+section#main .slider div h4 {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 16px;
+}
+section#main .slider .slick-dots li button {
+  -webkit-border-radius: 5em;
+  -moz-border-radius: 5em;
+  -ms-border-radius: 5em;
+  -o-border-radius: 5em;
+  border-radius: 5em;
+}
+section#main .slick-slide {
+  text-align: center;
+}
+section#main .slick-prev:before {
+  content: "\f137";
+}
+section#main .slick-next:before {
+  content: "\f138";
+}
+section#main .slick-prev:before,
+section#main .slick-next:before {
+  font-family: FontAwesome;
+  font-size: 40px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-border-radius: 5em;
+  -moz-border-radius: 5em;
+  -ms-border-radius: 5em;
+  -o-border-radius: 5em;
+  color: #CCC;
+  display: inline-block;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+}
+section#main .filter {
+  text-align: center;
+}
+section#main .filter a {
+  display: inline-block;
+  padding: 7px 20px;
+  text-decoration: none;
+  -webkit-border-radius: 5em;
+  -moz-border-radius: 5em;
+  -ms-border-radius: 5em;
+  -o-border-radius: 5em;
+  border-radius: 5em;
+  margin: 10px 5px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+footer {
+  background: #cc6698;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #cc6698 0%, #6b396c 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #cc6698), color-stop(100%, #6b396c));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg, #cc6698 0%, #6b396c 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg, #cc6698 0%, #6b396c 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg, #cc6698 0%, #6b396c 100%);
+  /* IE10+ */
+  background: linear-gradient(-45deg, #cc6698 0%, #6b396c 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc6698, endColorstr=#6b396c, GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+
+footer .social a {
+  border: 2px solid #ffffff;
+}
+
+footer .social a i {
+  color: #ffffff;
+}
+
+footer .social a:hover {
+  background: #ffffff;
+}
+
+footer .social a:hover i {
+  color: #cc6698;
+}
+
+footer .rights {
+  color: #ffffff;
+}
+
+footer .rights a {
+  color: #ffffff;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+form .form-control:focus {
+  border-color: #cc6698;
+  color: #999999;
+}
+
+div.restaurant-item img {
+  border-radius: 20px;
+  background-color: rgba(184, 93, 143, 0.15);
 }

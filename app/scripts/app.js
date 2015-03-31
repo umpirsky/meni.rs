@@ -8,7 +8,8 @@ angular
     'ngAnimate',
     'ngResource',
     'ngRoute',
-    'bootstrapLightbox'
+    'bootstrapLightbox',
+    'slick'
   ])
   .config(function ($routeProvider, LightboxProvider) {
     $routeProvider
