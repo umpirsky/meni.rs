@@ -1,9 +1,9 @@
-<div class="section-heading scrollpoint sp-effect3">
+<div class="section-heading">
     <h1>{{ restaurant.name }}</h1>
     <div class="divider"></div>
     <img ng-src="{{ restaurant.logo }}" class="img-centered restaurant-logo" alt="{{ restaurant.name }}">
 </div>
-<slick init-onload=true data="restaurant.images" slides-to-show="4" slides-to-scroll="1" class="slider filtering scrollpoint sp-effect5">
+<slick init-onload=true data="restaurant.images" slides-to-show="4" slides-to-scroll="1" class="slider filtering">
     <div ng-repeat="image in restaurant.images">
         <a href="javascript:;" ng-click="openLightboxModal($index)">
             <img ng-src="{{ image }}" class="img-responsive" alt="{{ restaurant.name }}">
