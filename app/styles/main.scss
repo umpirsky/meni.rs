@@ -205,17 +205,17 @@ section#main .slick-prev:before {
 section#main .slick-next:before {
   content: "\f138";
 }
+section#main .slick-next {
+  right: -10px;
+}
 section#main .slick-prev:before,
 section#main .slick-next:before {
   font-family: FontAwesome;
   font-size: 40px;
   -webkit-font-smoothing: antialiased;
-  -webkit-border-radius: 5em;
-  -moz-border-radius: 5em;
-  -ms-border-radius: 5em;
-  -o-border-radius: 5em;
   color: #CCC;
   display: inline-block;
+  opacity: .75;
   text-align: center;
   width: 40px;
   height: 40px;
