@@ -364,6 +364,7 @@ module.exports = function (grunt) {
             'views/{,*/}*.html',
             'images/**/*',
             'styles/fonts/{,*/}*.*',
+            'scripts/modernizr.custom.32033.js',
             'restaurants/*.json'
           ]
         }, {
