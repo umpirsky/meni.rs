@@ -10,6 +10,11 @@
         "logo": "images/logo/pink-panter.jpg"
     },
     {
+        "name": "Good Food",
+        "slug": "good-food",
+        "logo": "images/logo/good-food.png"
+    },
+    {
         "name": "The Regent",
         "slug": "the-regent",
         "logo": "images/logo/the-regent.png"
