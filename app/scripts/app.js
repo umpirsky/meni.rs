@@ -8,10 +8,9 @@ angular
     'ngAnimate',
     'ngResource',
     'ngRoute',
-    'bootstrapLightbox',
     'slick'
   ])
-  .config(function ($routeProvider, LightboxProvider) {
+  .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
@@ -24,9 +23,4 @@ angular
       .otherwise({
         redirectTo: '/'
       });
-
-    LightboxProvider.templateUrl = 'views/lightbox.html';
-    LightboxProvider.getImageUrl = function (image) {
-      return image;
-    };
   });
