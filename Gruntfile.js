@@ -300,6 +300,23 @@ module.exports = function (grunt) {
     //   dist: {}
     // },
 
+    responsive_images: {
+      resize: {
+        options: {
+          sizes: [{
+            name: 'thumbnails',
+            width: 200
+          }]
+        },
+        files: [{
+          expand: true,
+          src: ['menu/**/*/*'],
+          cwd: '<%= yeoman.app %>/images',
+          custom_dest: '<%= yeoman.app %>/images/{%= name %}/{%= path %}'
+        }]
+      }
+    },
+
     imagemin: {
       dist: {
         files: [{
@@ -364,6 +381,7 @@ module.exports = function (grunt) {
             'views/{,*/}*.html',
             'images/**/*',
             'styles/fonts/{,*/}*.*',
+            'scripts/modernizr.custom.32033.js',
             'restaurants/*.json'
           ]
         }, {
@@ -376,6 +394,12 @@ module.exports = function (grunt) {
           flatten: true,
           cwd: '.',
           src: 'bower_components/bootstrap/fonts/*',
+          dest: '<%= yeoman.dist %>/fonts'
+        }, {
+          expand: true,
+          flatten: true,
+          cwd: '.',
+          src: 'bower_components/components-font-awesome/fonts/*',
           dest: '<%= yeoman.dist %>/fonts'
         }]
       },
@@ -390,13 +414,16 @@ module.exports = function (grunt) {
     // Run some tasks in parallel to speed up the build process
     concurrent: {
       server: [
-        'compass:server'
+        'compass:server',
+        'responsive_images'
       ],
       test: [
-        'compass'
+        'compass',
+        'responsive_images'
       ],
       dist: [
         'compass:dist',
+        'responsive_images',
         'imagemin'
       ]
     },
