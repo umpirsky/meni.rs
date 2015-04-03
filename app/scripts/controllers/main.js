@@ -8,6 +8,6 @@ angular.module('meniApp')
     $http.get('restaurants/restaurants.json').success(function(data) {
       $scope.restaurants = data;
 
-      Placeholdem($('#query'));
+      new Placeholdem($('#query'));
     });
   });

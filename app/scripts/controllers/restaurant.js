@@ -8,8 +8,4 @@ angular.module('meniApp')
     $http.get('restaurants/' + $routeParams.slug + '.json').success(function(data) {
       $scope.restaurant = data;
     });
-
-    $scope.openLightboxModal = function (index) {
-      Lightbox.openModal($scope.restaurant.images, index);
-    };
   });
