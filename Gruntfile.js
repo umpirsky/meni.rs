@@ -300,6 +300,23 @@ module.exports = function (grunt) {
     //   dist: {}
     // },
 
+    responsive_images: {
+      resize: {
+        options: {
+          sizes: [{
+            name: 'thumbnail',
+            width: 200
+          }]
+        },
+        files: [{
+          expand: true,
+          src: ['menu/**/*/*'],
+          cwd: '<%= yeoman.app %>/images',
+          dest: '<%= yeoman.dist %>/images'
+        }]
+      }
+    },
+
     imagemin: {
       dist: {
         files: [{
@@ -397,13 +414,16 @@ module.exports = function (grunt) {
     // Run some tasks in parallel to speed up the build process
     concurrent: {
       server: [
-        'compass:server'
+        'compass:server',
+        'responsive_images'
       ],
       test: [
-        'compass'
+        'compass',
+        'responsive_images'
       ],
       dist: [
         'compass:dist',
+        'responsive_images',
         'imagemin'
       ]
     },
