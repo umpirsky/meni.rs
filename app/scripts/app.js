@@ -5,6 +5,7 @@
  */
 angular
   .module('meniApp', [
+    'meniFilters',
     'ngAnimate',
     'ngResource',
     'ngRoute',

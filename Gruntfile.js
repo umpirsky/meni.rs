@@ -304,7 +304,7 @@ module.exports = function (grunt) {
       resize: {
         options: {
           sizes: [{
-            name: 'thumbnail',
+            name: 'thumbnails',
             width: 200
           }]
         },
@@ -312,7 +312,7 @@ module.exports = function (grunt) {
           expand: true,
           src: ['menu/**/*/*'],
           cwd: '<%= yeoman.app %>/images',
-          dest: '<%= yeoman.dist %>/images'
+          custom_dest: '<%= yeoman.app %>/images/{%= name %}/{%= path %}'
         }]
       }
     },
