@@ -57,6 +57,15 @@ section#main .restaurant-item {
   color: #999999;
 }
 
+div.restaurant-item img {
+  border-radius: 20px;
+  background-color: rgba(184, 93, 143, 0.15);
+}
+
+img.restaurant-logo {
+  border-radius: 20px;
+}
+
 section#main .slider {
   margin: 50px 0;
 }
@@ -291,7 +300,3 @@ form .form-control:focus {
   color: #999999;
 }
 
-div.restaurant-item img {
-  border-radius: 20px;
-  background-color: rgba(184, 93, 143, 0.15);
-}
