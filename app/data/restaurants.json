@@ -2,36 +2,36 @@
     {
         "name": "Pasta Bar 2x2",
         "slug": "dva-puta-dva",
-        "logo": "images/logo/dva-puta-dva.jpg"
+        "logo": "images/restaurant/dva-puta-dva.jpg"
     },
     {
         "name": "Pink Panter",
         "slug": "pink-panter",
-        "logo": "images/logo/pink-panter.jpg"
+        "logo": "images/restaurant/pink-panter.jpg"
     },
     {
         "name": "Good Food",
         "slug": "good-food",
-        "logo": "images/logo/good-food.png"
+        "logo": "images/restaurant/good-food.png"
     },
     {
         "name": "The Regent",
         "slug": "the-regent",
-        "logo": "images/logo/the-regent.png"
+        "logo": "images/restaurant/the-regent.png"
     },
     {
         "name": "Night & Day",
         "slug": "night-and-day",
-        "logo": "images/logo/night-and-day.png"
+        "logo": "images/restaurant/night-and-day.png"
     },
     {
         "name": "Cezar",
         "slug": "cezar",
-        "logo": "images/logo/cezar.png"
+        "logo": "images/restaurant/cezar.png"
     },
     {
         "name": "Pizza Boss",
         "slug": "pizza-boss",
-        "logo": "images/logo/pizza-boss.jpg"
+        "logo": "images/restaurant/pizza-boss.jpg"
     }
 ]

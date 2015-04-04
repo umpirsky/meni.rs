@@ -382,7 +382,7 @@ module.exports = function (grunt) {
             'images/**/*',
             'styles/fonts/{,*/}*.*',
             'scripts/modernizr.custom.32033.js',
-            'restaurants/*.json'
+            'data/*.json'
           ]
         }, {
           expand: true,

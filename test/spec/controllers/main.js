@@ -10,7 +10,7 @@ describe('Controller: MainCtrl', function () {
   // Initialize the controller and a mock scope
   beforeEach(inject(function ($controller, $rootScope, _$httpBackend_) {
     $httpBackend = _$httpBackend_;
-    $httpBackend.expectGET('restaurants/restaurants.json').
+    $httpBackend.expectGET('data/restaurants.json').
       respond([
         {
           "name": "Pasta Bar 2x2",
