@@ -2,36 +2,43 @@
     {
         "name": "Pasta Bar 2x2",
         "slug": "dva-puta-dva",
-        "logo": "images/restaurant/dva-puta-dva.jpg"
+        "logo": "images/restaurant/dva-puta-dva.jpg",
+        "tags": "pasta, sos, carbonara, bolognese, pollo"
     },
     {
         "name": "Pink Panter",
         "slug": "pink-panter",
-        "logo": "images/restaurant/pink-panter.jpg"
+        "logo": "images/restaurant/pink-panter.jpg",
+        "tags": "roštilj, somun, pljeskavica, batak, file, ražnjić, kobasica, pomfrit"
     },
     {
         "name": "Good Food",
         "slug": "good-food",
-        "logo": "images/restaurant/good-food.png"
+        "logo": "images/restaurant/good-food.png",
+        "tags": "burger, wrap, pica, sendvič, pomfrit, palačinka"
     },
     {
         "name": "The Regent",
         "slug": "the-regent",
-        "logo": "images/restaurant/the-regent.png"
+        "logo": "images/restaurant/the-regent.png",
+        "tags": "sendvič, pasta, njoke, pomfrit, salata, rižoto, omplet, pita, burito"
     },
     {
         "name": "Night & Day",
         "slug": "night-and-day",
-        "logo": "images/restaurant/night-and-day.png"
+        "logo": "images/restaurant/night-and-day.png",
+        "tags": "pica, pasta, sendvič, salata, palačinka"
     },
     {
         "name": "Cezar",
         "slug": "cezar",
-        "logo": "images/restaurant/cezar.png"
+        "logo": "images/restaurant/cezar.png",
+        "tags": "pica, sendvič, salata, palačinka"
     },
     {
         "name": "Pizza Boss",
         "slug": "pizza-boss",
-        "logo": "images/restaurant/pizza-boss.jpg"
+        "logo": "images/restaurant/pizza-boss.jpg",
+        "tags": "pica, sendvič, palačinka"
     }
 ]
