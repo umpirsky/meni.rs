@@ -1,11 +1,11 @@
 'use strict';
 
 /**
- * @name meniApp
+ * @name restaurantsApp
  */
 angular
-  .module('meniApp', [
-    'meniFilters',
+  .module('restaurantsApp', [
+    'restaurantsFilters',
     'ngAnimate',
     'ngResource',
     'ngRoute',
@@ -17,7 +17,7 @@ angular
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
-      .when('/meni/:slug', {
+      .when('/nis/:slug', {
         templateUrl: 'views/restaurant.html',
         controller: 'RestaurantCtrl'
       })

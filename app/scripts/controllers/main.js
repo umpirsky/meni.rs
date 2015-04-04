@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * @name meniApp.controller:MainCtrl
+ * @name restaurantsApp.controller:MainCtrl
  */
-angular.module('meniApp')
+angular.module('restaurantsApp')
   .controller('MainCtrl', function ($scope, $http) {
     new Placeholdem($('#query'));
 

@@ -2,7 +2,7 @@
 
 describe('filter', function() {
 
-  beforeEach(module('meniFilters'));
+  beforeEach(module('restaurantsFilters'));
 
   describe('thumbnail', function() {
     it('should convert image path to thumbnail image path',

@@ -1,6 +1,6 @@
 'use strict';
 
-describe('Meni App', function() {
+describe('Restaurants App', function() {
 
   describe('Restaurant list view', function() {
 

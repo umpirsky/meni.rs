@@ -3,7 +3,7 @@
 describe('Controller: MainCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('meniApp'));
+  beforeEach(module('restaurantsApp'));
 
   var MainCtrl, scope, $httpBackend;
 
@@ -13,14 +13,14 @@ describe('Controller: MainCtrl', function () {
     $httpBackend.expectGET('data/restaurants.json').
       respond([
         {
-          "name": "Pasta Bar 2x2",
-          "slug": "dva-puta-dva",
-          "logo": "images/logo/dva-puta-dva.jpg"
+          'name': 'Pasta Bar 2x2',
+          'slug': 'dva-puta-dva',
+          'logo': 'images/logo/dva-puta-dva.jpg'
         },
         {
-          "name": "Pink Panter",
-          "slug": "pink-panter",
-          "logo": "images/logo/pink-panter.jpg"
+          'name': 'Pink Panter',
+          'slug': 'pink-panter',
+          'logo': 'images/logo/pink-panter.jpg'
         }
       ]);
 
