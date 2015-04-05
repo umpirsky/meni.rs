@@ -5,7 +5,7 @@ describe('Restaurants App', function() {
   describe('Restaurant list view', function() {
 
     beforeEach(function() {
-      browser.get('app/index.html');
+      browser.get('/');
     });
 
 
@@ -20,8 +20,8 @@ describe('Restaurants App', function() {
       expect(restaurantList.count()).toBe(1);
 
       query.clear();
-      query.sendKeys('pi');
-      expect(restaurantList.count()).toBe(2);
+      query.sendKeys('pica');
+      expect(restaurantList.count()).toBe(4);
     });
   });
 });

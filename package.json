@@ -25,6 +25,7 @@
     "grunt-usemin": "^3.0.0",
     "grunt-wiredep": "^2.0.0",
     "grunt-responsive-images": "^0.1.6",
+    "grunt-protractor-runner": "^2.0.0",
     "jshint-stylish": "^1.0.0",
     "load-grunt-tasks": "^3.1.0",
     "time-grunt": "^1.0.0",
@@ -32,7 +33,8 @@
     "karma-jasmine": "~0.3.5",
     "karma-phantomjs-launcher": "~0.1.4",
     "karma": "~0.12.31",
-    "grunt-karma": "~0.10.1"
+    "grunt-karma": "~0.10.1",
+    "protractor": "~1.0.0"
   },
   "engines": {
     "node": ">=0.10.0"
