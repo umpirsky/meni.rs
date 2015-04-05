@@ -1,4 +1,4 @@
-# Šta jesti?
+# Šta jesti? [![Build Status](https://travis-ci.org/umpirsky/stajesti.rs.svg?branch=master)](https://travis-ci.org/umpirsky/stajesti.rs)
 
 Projekat koji daje odgovor na večito pitanje.
 
