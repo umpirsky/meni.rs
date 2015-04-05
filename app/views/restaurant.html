@@ -3,7 +3,7 @@
     <div class="divider"></div>
     <img ng-src="{{ restaurant.logo }}" class="img-centered restaurant-logo" alt="{{ restaurant.name }}">
 </div>
-<slick init-onload="true" data="restaurant.images" slides-to-show="4" slides-to-scroll="1" class="slider filtering"
+<slick ng-if="!zoomed" init-onload="true" data="restaurant.images" slides-to-show="4" slides-to-scroll="1" class="slider filtering"
     responsive="[{
         breakpoint: 1024,
         settings: {
@@ -25,8 +25,17 @@
     }]"
 >
     <div ng-repeat="image in restaurant.images">
-        <a ng-href="{{ image }}" target="_blank">
+        <a href="javascript:;" ng-click="zoom($index)">
             <img ng-src="{{ image | thumbnail }}" class="img-responsive" alt="{{ restaurant.name }}">
         </a>
     </div>
 </slick>
+<div ng-if="zoomed">
+    <a ng-click="unzoom()" class="close">&times;</a>
+    <br>
+    <flex-slider slide="image in restaurant.images">
+        <li>
+            <img ng-src="{{ image }}" class="img-responsive" alt="{{ restaurant.name }}">
+        </li>
+    </flex-slider>
+</div>
