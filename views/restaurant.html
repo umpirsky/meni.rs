@@ -1,1 +1,19 @@
-<div class="section-heading"> <h1>{{ restaurant.name }}</h1> <div class="divider"></div> <img ng-src="{{ restaurant.logo }}" class="img-centered restaurant-logo" alt="{{ restaurant.name }}"> </div> <slick init-onload="true" data="restaurant.images" slides-to-show="4" slides-to-scroll="1" class="slider filtering"> <div ng-repeat="image in restaurant.images"> <a ng-href="{{ image }}" target="_blank"> <img ng-src="{{ image | thumbnail }}" class="img-responsive" alt="{{ restaurant.name }}"> </a> </div> </slick>
+<div class="section-heading"> <h1>{{ restaurant.name }}</h1> <div class="divider"></div> <img ng-src="{{ restaurant.logo }}" class="img-centered restaurant-logo" alt="{{ restaurant.name }}"> </div> <slick init-onload="true" data="restaurant.images" slides-to-show="4" slides-to-scroll="1" class="slider filtering" responsive="[{
+        breakpoint: 1024,
+        settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1
+        }
+    }, {
+        breakpoint: 600,
+        settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+        }
+    }, {
+        breakpoint: 480,
+        settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+        }
+    }]"> <div ng-repeat="image in restaurant.images"> <a ng-href="{{ image }}" target="_blank"> <img ng-src="{{ image | thumbnail }}" class="img-responsive" alt="{{ restaurant.name }}"> </a> </div> </slick>
