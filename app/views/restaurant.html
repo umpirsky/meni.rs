@@ -30,14 +30,24 @@
         </a>
     </div>
 </slick>
-<div class="flexslider-wrapper" ng-if="zoomed">
-    <a ng-click="unzoom()" class="close">&times;</a>
-    <br>
-    <flex-slider slideshow="false" slide="image in restaurant.images">
-        <li>
-            <a ng-href="{{ image }}" target="_blank">
-                <img ng-src="{{ image }}" class="img-responsive" alt="{{ restaurant.name }}">
-            </a>
-        </li>
-    </flex-slider>
+<div class="modal show" role="dialog" ng-if="zoomed">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button ng-click="unzoom()" type="button" class="close"><span>&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">{{ restaurant.name }}</h4>
+            </div>
+            <div class="modal-body">
+                <div class="flexslider-wrapper">
+                    <flex-slider slideshow="false" slide="image in restaurant.images">
+                        <li>
+                            <a ng-href="{{ image }}" target="_blank">
+                                <img ng-src="{{ image }}" class="img-responsive" alt="{{ restaurant.name }}">
+                            </a>
+                        </li>
+                    </flex-slider>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
