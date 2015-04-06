@@ -30,12 +30,14 @@
         </a>
     </div>
 </slick>
-<div ng-if="zoomed">
+<div class="flexslider-wrapper" ng-if="zoomed">
     <a ng-click="unzoom()" class="close">&times;</a>
     <br>
-    <flex-slider slide="image in restaurant.images">
+    <flex-slider slideshow="false" slide="image in restaurant.images">
         <li>
-            <img ng-src="{{ image }}" class="img-responsive" alt="{{ restaurant.name }}">
+            <a ng-href="{{ image }}" target="_blank">
+                <img ng-src="{{ image }}" class="img-responsive" alt="{{ restaurant.name }}">
+            </a>
         </li>
     </flex-slider>
 </div>
