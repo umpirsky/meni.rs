@@ -3,7 +3,7 @@
     <div class="divider"></div>
     <img ng-src="{{ restaurant.logo }}" class="img-centered restaurant-logo" alt="{{ restaurant.name }}">
 </div>
-<slick ng-if="!zoomed" init-onload="true" data="restaurant.images" slides-to-show="4" slides-to-scroll="1" class="slider filtering"
+<slick init-onload="true" data="restaurant.images" slides-to-show="4" slides-to-scroll="1" class="slider filtering"
     responsive="[{
         breakpoint: 1024,
         settings: {
@@ -30,24 +30,3 @@
         </a>
     </div>
 </slick>
-<div class="modal show" role="dialog" ng-if="zoomed">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button ng-click="unzoom()" type="button" class="close"><span>&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">{{ restaurant.name }}</h4>
-            </div>
-            <div class="modal-body">
-                <div class="flexslider-wrapper">
-                    <flex-slider slideshow="false" slide="image in restaurant.images">
-                        <li>
-                            <a ng-href="{{ image }}" target="_blank">
-                                <img ng-src="{{ image }}" class="img-responsive" alt="{{ restaurant.name }}">
-                            </a>
-                        </li>
-                    </flex-slider>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>

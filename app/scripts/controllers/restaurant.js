@@ -4,18 +4,15 @@
  * @name restaurantsApp.controller:RestaurantCtrl
  */
 angular.module('restaurantsApp')
-  .controller('RestaurantCtrl', function ($scope, $routeParams, $http) {
-    $scope.zoomed = false;
-
+  .controller('RestaurantCtrl', function ($scope, $routeParams, $http, $modal) {
     $http.get('data/' + $routeParams.slug + '.json').success(function(data) {
       $scope.restaurant = data;
     });
 
     $scope.zoom = function(index) {
-      $scope.zoomed = true;
-    };
-
-    $scope.unzoom = function() {
-      $scope.zoomed = false;
+      $modal.open({
+        templateUrl: 'views/modal.html',
+        scope: $scope
+      });
     };
   });
