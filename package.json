@@ -1,5 +1,5 @@
 {
-  "name": "meni",
+  "name": "restaurants",
   "dependencies": {},
   "repository": {},
   "devDependencies": {
@@ -41,6 +41,7 @@
   },
   "scripts": {
     "install": "node node_modules/grunt-protractor-runner/node_modules/protractor/bin/webdriver-manager update",
+    "update-webdriver": "webdriver-manager update",
     "test": "grunt test"
   }
 }

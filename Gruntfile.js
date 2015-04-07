@@ -393,14 +393,14 @@ module.exports = function (grunt) {
           expand: true,
           flatten: true,
           cwd: '.',
-          src: 'bower_components/bootstrap/fonts/*',
+          src: ['bower_components/bootstrap/fonts/*', 'bower_components/components-font-awesome/fonts/*'],
           dest: '<%= yeoman.dist %>/fonts'
         }, {
           expand: true,
           flatten: true,
           cwd: '.',
-          src: 'bower_components/components-font-awesome/fonts/*',
-          dest: '<%= yeoman.dist %>/fonts'
+          src: 'bower_components/flexslider/fonts/*',
+          dest: '<%= yeoman.dist %>/styles/fonts'
         }]
       },
       styles: {
