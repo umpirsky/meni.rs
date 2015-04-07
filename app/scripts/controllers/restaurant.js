@@ -10,6 +10,8 @@ angular.module('restaurantsApp')
     });
 
     $scope.zoom = function(index) {
+      $scope.startAt = index;
+
       $modal.open({
         templateUrl: 'views/modal.html',
         scope: $scope
