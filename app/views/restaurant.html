@@ -25,7 +25,7 @@
     }]"
 >
     <div ng-repeat="image in restaurant.images">
-        <a ng-href="{{ image }}" target="_blank">
+        <a href="javascript:;" ng-click="zoom($index)">
             <img ng-src="{{ image | thumbnail }}" class="img-responsive" alt="{{ restaurant.name }}">
         </a>
     </div>

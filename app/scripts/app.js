@@ -9,7 +9,9 @@ angular
     'ngAnimate',
     'ngResource',
     'ngRoute',
-    'slick'
+    'slick',
+    'angular-flexslider',
+    'ui.bootstrap'
   ])
   .config(function ($routeProvider) {
     $routeProvider
