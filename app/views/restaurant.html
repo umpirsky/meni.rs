@@ -3,6 +3,49 @@
     <div class="divider"></div>
     <img ng-src="{{ restaurant.logo }}" class="img-centered restaurant-logo" alt="{{ restaurant.name }}">
 </div>
+<div class="row">
+    <div class="col-md-3 col-sm-3 col-xs-6">
+        <div class="media">
+            <a class="pull-left" href="tel:{{ restaurant.phone }}">
+                <i class="fa fa-phone fa-2x"></i>
+            </a>
+            <div class="media-body">
+                <h4 class="media-heading">{{ restaurant.phone }}</h4>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6">
+        <div class="media">
+            <a ng-if="restaurant.delivery !== undefined" class="pull-left">
+                <i ng-if="restaurant.delivery" class="fa fa-check fa-2x"></i>
+                <i ng-if="!restaurant.delivery" class="fa fa-close fa-2x"></i>
+            </a>
+            <div class="media-body">
+                <h4 class="media-heading">Dostava</h4>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6">
+        <div class="media">
+            <a class="pull-left" target="_blank" rel="external" href="http://maps.google.com/?q={{ restaurant.address }}">
+                <i class="fa fa-map-marker fa-2x"></i>
+            </a>
+            <div class="media-body">
+                <h4 class="media-heading">{{ restaurant.address }}</h4>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6">
+        <div class="media">
+            <a class="pull-left" target="_blank" rel="external" href="{{ restaurant.url}}">
+                <i class="fa fa-{{ restaurant.url | urlicon }} fa-2x"></i>
+            </a>
+            <div class="media-body">
+                <h4 class="media-heading">{{ restaurant.url | urlname }}</h4>
+            </div>
+        </div>
+    </div>
+</div>
 <slick init-onload="true" data="restaurant.images" slides-to-show="4" slides-to-scroll="1" class="slider filtering"
     responsive="[{
         breakpoint: 1024,
