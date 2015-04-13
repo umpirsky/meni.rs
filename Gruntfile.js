@@ -401,6 +401,10 @@ module.exports = function (grunt) {
           cwd: '.',
           src: 'bower_components/flexslider/fonts/*',
           dest: '<%= yeoman.dist %>/styles/fonts'
+        }, {
+          cwd: '.',
+          src: 'bower_components/slick-carousel/slick/ajax-loader.gif',
+          dest: '<%= yeoman.dist %>/styles/ajax-loader.gif'
         }]
       },
       styles: {
