@@ -306,3 +306,45 @@ form .form-control:focus {
 .flex-direction-nav a {
   height: 45px;
 }
+
+.media {
+  margin-bottom: 15px;
+  margin-bottom: 10px;
+}
+
+.media a {
+  color: #cc6698;
+}
+
+.media i.fa {
+  border: 2px solid #cc6698;
+  color: #cc6698;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  padding: 10px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  width: 1.9em;
+  text-align: center;
+}
+
+.media:hover i.fa {
+  color: #ffffff;
+  background: #cc6698;
+}
+
+.media .media-heading {
+  padding-top: 16px;
+  margin: 0 0 5px;
+  font-size: 16px;
+}
+
+[ng\:cloak], [ng-cloak], .ng-cloak {
+  display: none !important;
+}
