@@ -1,6 +1,10 @@
 {
     "name": "The Regent",
     "logo": "images/restaurant/the-regent.png",
+    "phone": "018 524 924, 065 370 60 00",
+    "delivery": true,
+    "address": "Generala Milojka Lešjanina, Niš",
+    "url": "http://www.regentclub.com",
     "images": [
         "images/menu/the-regent/1.jpg",
         "images/menu/the-regent/2.jpg",
