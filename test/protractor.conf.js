@@ -2,11 +2,9 @@ exports.config = {
   specs: [
     'e2e/*.js'
   ],
-  multiCapabilities: [{
-    'browserName': 'chrome'
-  }, {
+  capabilities: {
     'browserName': 'firefox'
-  }],
+  },
   directConnect: true,
   baseUrl: 'http://localhost:9001',
   framework: 'jasmine'
