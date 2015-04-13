@@ -5,6 +5,7 @@
  */
 angular
   .module('restaurantsApp', [
+    'restaurantsServices',
     'restaurantsFilters',
     'ngAnimate',
     'ngResource',
