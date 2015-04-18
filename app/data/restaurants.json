@@ -30,6 +30,12 @@
         "tags": "pica, pasta, sendvič, salata, palačinka"
     },
     {
+        "name": "Geppetto",
+        "slug": "geppetto",
+        "logo": "images/restaurant/geppetto.jpg",
+        "tags": "pica, sendvič,palačinka"
+    },
+    {
         "name": "Cezar",
         "slug": "cezar",
         "logo": "images/restaurant/cezar.png",
