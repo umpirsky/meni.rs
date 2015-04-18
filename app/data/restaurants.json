@@ -36,6 +36,12 @@
         "tags": "pica, sendvič, salata, palačinka"
     },
     {
+        "name": "Pleasure",
+        "slug": "pleasure",
+        "logo": "images/restaurant/pleasure.png",
+        "tags": "sendvič, salata, piletina, biftek, riba, rižoto"
+    },
+    {
         "name": "Pizza Boss",
         "slug": "pizza-boss",
         "logo": "images/restaurant/pizza-boss.jpg",

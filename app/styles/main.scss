@@ -10,6 +10,13 @@ h1 {
   color: #666666;
 }
 
+.opacity-75
+{
+    opacity: 0.75;
+    filter: grayscale( 100% );
+    -webkit-filter: grayscale( 1 );
+}
+
 .scrollpoint {
   opacity: 0;
 }
