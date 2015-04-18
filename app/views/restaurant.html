@@ -14,7 +14,7 @@
             </div>
         </div>
     </div>
-    <div class="col-md-3 col-sm-3 col-xs-6">
+    <div class="col-md-3 col-sm-3 col-xs-6" ng-class="restaurant.delivery ? '' : 'opacity-75'">
         <div class="media">
             <a ng-if="restaurant.delivery !== undefined" class="pull-left">
                 <i ng-if="restaurant.delivery" class="fa fa-check fa-2x"></i>
