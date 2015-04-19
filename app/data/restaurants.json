@@ -6,6 +6,12 @@
         "tags": "pasta, sos, carbonara, bolognese, pollo"
     },
     {
+        "name": "Gyros 4U",
+        "slug": "gyros4u",
+        "logo": "images/restaurant/gyros4u.png",
+        "tags": "giros"
+    },
+    {
         "name": "Pink Panter",
         "slug": "pink-panter",
         "logo": "images/restaurant/pink-panter.jpg",
