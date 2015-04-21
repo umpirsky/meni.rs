@@ -12,6 +12,12 @@
         "tags": "giros"
     },
     {
+        "name": "Go-Go",
+        "slug": "go-go",
+        "logo": "images/restaurant/go-go.jpg",
+        "tags": "pica, sendvič, palačinka"
+    },
+    {
         "name": "Pink Panter",
         "slug": "pink-panter",
         "logo": "images/restaurant/pink-panter.jpg",
