@@ -24,6 +24,12 @@
         "tags": "roštilj, somun, pljeskavica, batak, file, ražnjić, kobasica, pomfrit"
     },
     {
+        "name": "Roštiljko",
+        "slug": "rostiljko",
+        "logo": "images/restaurant/rostiljko.png",
+        "tags": "roštilj, pljeskavica, batak, file, ražnjić, kobasica, pomfrit, ćevapi"
+    },
+    {
         "name": "Good Food",
         "slug": "good-food",
         "logo": "images/restaurant/good-food.png",
