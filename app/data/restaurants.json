@@ -72,6 +72,12 @@
         "tags": "burek, pica, pecivo, sendvič, kroasan"
     },
     {
+        "name": "Kabak",
+        "slug": "kabak",
+        "logo": "images/restaurant/kabak.jpg",
+        "tags": "burek, pica, pecivo, sendvič, kroasan"
+    },
+    {
         "name": "Pizza Boss",
         "slug": "pizza-boss",
         "logo": "images/restaurant/pizza-boss.jpg",
