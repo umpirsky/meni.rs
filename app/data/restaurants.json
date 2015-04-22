@@ -12,10 +12,22 @@
         "tags": "giros"
     },
     {
+        "name": "Go-Go",
+        "slug": "go-go",
+        "logo": "images/restaurant/go-go.jpg",
+        "tags": "pica, sendvič, palačinka"
+    },
+    {
         "name": "Pink Panter",
         "slug": "pink-panter",
         "logo": "images/restaurant/pink-panter.jpg",
         "tags": "roštilj, somun, pljeskavica, batak, file, ražnjić, kobasica, pomfrit"
+    },
+    {
+        "name": "Roštiljko",
+        "slug": "rostiljko",
+        "logo": "images/restaurant/rostiljko.png",
+        "tags": "roštilj, pljeskavica, batak, file, ražnjić, kobasica, pomfrit, ćevapi"
     },
     {
         "name": "Good Food",
@@ -52,6 +64,18 @@
         "slug": "pleasure",
         "logo": "images/restaurant/pleasure.png",
         "tags": "sendvič, salata, piletina, biftek, riba, rižoto"
+    },
+    {
+        "name": "Pekara Branković",
+        "slug": "brankovic",
+        "logo": "images/restaurant/brankovic.jpg",
+        "tags": "burek, pica, pecivo, sendvič, kroasan"
+    },
+    {
+        "name": "Kabak",
+        "slug": "kabak",
+        "logo": "images/restaurant/kabak.jpg",
+        "tags": "burek, pica, pecivo, sendvič, kroasan"
     },
     {
         "name": "Pizza Boss",

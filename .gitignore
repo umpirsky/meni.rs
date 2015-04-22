@@ -1,4 +1,5 @@
 dist
+app/images/thumbnails
 node_modules
 .tmp
 .sass-cache

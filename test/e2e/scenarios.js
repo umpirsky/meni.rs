@@ -14,14 +14,14 @@ describe('Restaurants App', function() {
       var restaurantList = element.all(by.repeater('restaurant in restaurants'));
       var query = element(by.model('query'));
 
-      expect(restaurantList.count()).toBe(7);
+      expect(restaurantList.count()).toBe(14);
 
       query.sendKeys('Cezar');
       expect(restaurantList.count()).toBe(1);
 
       query.clear();
       query.sendKeys('pica');
-      expect(restaurantList.count()).toBe(4);
+      expect(restaurantList.count()).toBe(8);
     });
   });
 });
