@@ -3,7 +3,7 @@
         <div class="flexslider-wrapper">
             <flex-slider slideshow="false" start-at="startAt" animation="slide" flex-slide="image in restaurant.images">
                 <li>
-                    <img ng-src="{{ image }}" class="img-responsive" alt="{{ restaurant.name }}">
+                    <a target="_blank" ng-href="{{ image }}"><img ng-src="{{ image | thumbnail:600 }}" class="img-responsive" alt="{{ restaurant.name }}"></a>
                 </li>
             </flex-slider>
         </div>
