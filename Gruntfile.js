@@ -304,8 +304,11 @@ module.exports = function (grunt) {
       resize: {
         options: {
           sizes: [{
-            name: 'thumbnails',
+            name: 'thumbnails-200',
             width: 200
+          }, {
+            name: 'thumbnails-600',
+            width: 600
           }]
         },
         files: [{

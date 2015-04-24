@@ -2,8 +2,8 @@
 
 angular.module('restaurantsFilters', [])
   .filter('thumbnail', function() {
-    return function(url) {
-      return url.replace('images/', 'images/thumbnails/');
+    return function(url, size) {
+      return url.replace('images/', 'images/thumbnails-' + size + '/');
     };
   })
   .filter('urlText', ['urlText', function(urlText) {
