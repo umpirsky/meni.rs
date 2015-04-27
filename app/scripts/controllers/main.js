@@ -5,7 +5,7 @@
  */
 angular.module('restaurantsApp')
   .controller('MainCtrl', function ($scope, $http) {
-    new Placeholdem($('#query'));
+    // new Placeholdem($('#query'));
 
     $http.get('data/restaurants.json').success(function(data) {
       $scope.restaurants = data;
