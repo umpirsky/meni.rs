@@ -10,6 +10,7 @@ angular
     'ngAnimate',
     'ngResource',
     'ngRoute',
+    'ngTouch',
     'slick',
     'angular-flexslider',
     'ui.bootstrap'
