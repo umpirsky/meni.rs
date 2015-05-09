@@ -7,7 +7,7 @@ angular.module('restaurantsServices', [])
       link.href = url;
 
       if (-1 !== link.href.indexOf('facebook.com/pages')) {
-        return link.pathname.split('/')[2];
+        return window.decodeURIComponent(link.pathname.split('/')[2]);
       }
 
       if (-1 !== link.hostname.indexOf('facebook')) {
