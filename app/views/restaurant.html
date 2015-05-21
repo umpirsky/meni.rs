@@ -48,7 +48,7 @@
 </div>
 <slick init-onload="true" data="restaurant.images" slides-to-show="4" slides-to-scroll="1" class="slider filtering" responsive="breakpoints">
     <div ng-repeat="image in restaurant.images">
-        <a href="javascript:;" ng-click="zoom($index)">
+        <a data-index="{{ $index }}" href="javascript:;">
             <img ng-src="{{ image | thumbnail:200 }}" class="img-responsive" alt="{{ restaurant.name }}">
         </a>
     </div>

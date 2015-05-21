@@ -9,14 +9,14 @@ angular.module('restaurantsApp')
       $scope.restaurant = data;
     });
 
-    $scope.zoom = function(index) {
-      $scope.startAt = index;
+    $(document).on('click', 'slick a', function() {
+       $scope.startAt = $(this).data('index');
 
-      $modal.open({
-        templateUrl: 'views/modal.html',
-        scope: $scope
-      });
-    };
+       $modal.open({
+         templateUrl: 'views/modal.html',
+         scope: $scope
+       });
+    });
 
     $scope.breakpoints = [{
       breakpoint: 1024,
