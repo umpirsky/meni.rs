@@ -10,12 +10,16 @@ angular.module('restaurantsApp')
     });
 
     $(document).on('click', 'slick a', function() {
-       $scope.startAt = $(this).data('index');
+      $scope.startAt = $(this).data('index');
 
-       $modal.open({
-         templateUrl: 'views/modal.html',
-         scope: $scope
-       });
+      var modal = $modal.open({
+        templateUrl: 'views/modal.html',
+        scope: $scope
+      });
+
+      $scope.close = function() {
+        modal.close();
+      };
     });
 
     $scope.breakpoints = [{
