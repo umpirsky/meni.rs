@@ -27,7 +27,7 @@
         "name": "Roštiljko",
         "slug": "rostiljko",
         "logo": "images/restaurant/rostiljko.png",
-        "tags": "roštilj, pljeskavica, batak, file, ražnjić, kobasica, pomfrit, ćevapi"
+        "tags": "roštilj, pljeskavica, batak, file, ražnjić, kobasica, pomfrit, ćevap"
     },
     {
         "name": "Good Food",
@@ -51,7 +51,13 @@
         "name": "Geppetto",
         "slug": "geppetto",
         "logo": "images/restaurant/geppetto.jpg",
-        "tags": "pica, sendvič,palačinka"
+        "tags": "pica, sendvič, palačinka"
+    },
+    {
+        "name": "Goldy's",
+        "slug": "goldys",
+        "logo": "images/restaurant/goldys.jpg",
+        "tags": "giros, ćevap, suvlaki"
     },
     {
         "name": "Rapido",
