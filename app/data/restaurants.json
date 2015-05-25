@@ -27,7 +27,7 @@
         "name": "Roštiljko",
         "slug": "rostiljko",
         "logo": "images/restaurant/rostiljko.png",
-        "tags": "roštilj, pljeskavica, batak, file, ražnjić, kobasica, pomfrit, ćevapi"
+        "tags": "roštilj, pljeskavica, batak, file, ražnjić, kobasica, pomfrit, ćevap"
     },
     {
         "name": "Good Food",
@@ -51,7 +51,13 @@
         "name": "Geppetto",
         "slug": "geppetto",
         "logo": "images/restaurant/geppetto.jpg",
-        "tags": "pica, sendvič,palačinka"
+        "tags": "pica, sendvič, palačinka"
+    },
+    {
+        "name": "Goldy's",
+        "slug": "goldys",
+        "logo": "images/restaurant/goldys.png",
+        "tags": "giros, ćevap, suvlaki"
     },
     {
         "name": "Rapido",
@@ -78,6 +84,12 @@
         "tags": "sendvič, salata, piletina, biftek, riba, rižoto"
     },
     {
+        "name": "Sofronije Chicken Corner",
+        "slug": "sofronije-chicken-corner",
+        "logo": "images/restaurant/sofronije-chicken-corner.png",
+        "tags": "piletina, sendvič, pomfrit"
+    },
+    {
         "name": "Pekara Branković",
         "slug": "brankovic",
         "logo": "images/restaurant/brankovic.jpg",
@@ -88,6 +100,12 @@
         "slug": "kabak",
         "logo": "images/restaurant/kabak.jpg",
         "tags": "burek, pica, pecivo, sendvič, kroasan"
+    },
+    {
+        "name": "Žitopek",
+        "slug": "zitopek",
+        "logo": "images/restaurant/zitopek.png",
+        "tags": "burek, pita, kroasan"
     },
     {
         "name": "Novopazarski ćevap deset sa lukom",
