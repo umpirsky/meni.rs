@@ -84,6 +84,12 @@
         "tags": "sendvič, salata, piletina, biftek, riba, rižoto"
     },
     {
+        "name": "Sofronije Chicken Corner",
+        "slug": "sofronije-chicken-corner",
+        "logo": "images/restaurant/sofronije-chicken-corner.png",
+        "tags": "piletina, sendvič, pomfrit"
+    },
+    {
         "name": "Pekara Branković",
         "slug": "brankovic",
         "logo": "images/restaurant/brankovic.jpg",
