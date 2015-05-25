@@ -20,6 +20,10 @@ angular.module('restaurantsApp')
       $scope.close = function() {
         modal.close();
       };
+
+      $scope.$on('$routeChangeStart', function() {
+        modal.close();
+      });
     });
 
     $scope.breakpoints = [{
