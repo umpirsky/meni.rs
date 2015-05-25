@@ -14,7 +14,7 @@ describe('Restaurants App', function() {
       var restaurantList = element.all(by.repeater('restaurant in restaurants'));
       var query = element(by.model('query'));
 
-      expect(restaurantList.count()).toBe(17);
+      expect(restaurantList.count()).toBe(20);
 
       query.sendKeys('Cezar');
       expect(restaurantList.count()).toBe(1);
