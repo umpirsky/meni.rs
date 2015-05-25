@@ -24,6 +24,20 @@ angular.module('restaurantsApp')
       $scope.$on('$routeChangeStart', function() {
         modal.close();
       });
+
+      var toggleBackdrop = function(toggle) {
+        $('.modal-backdrop').toggle(toggle);
+      };
+
+      modal.opened.then(function() {
+        toggleBackdrop(true);
+      });
+
+      modal.result.then(function() {
+        toggleBackdrop(false);
+      }, function () {
+        toggleBackdrop(false);
+      });
     });
 
     $scope.breakpoints = [{
