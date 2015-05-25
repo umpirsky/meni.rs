@@ -96,6 +96,12 @@
         "tags": "burek, pica, pecivo, sendvič, kroasan"
     },
     {
+        "name": "Žitopek",
+        "slug": "zitopek",
+        "logo": "images/restaurant/zitopek.png",
+        "tags": "burek, pita, kroasan"
+    },
+    {
         "name": "Novopazarski ćevap deset sa lukom",
         "slug": "novopazarski-cevap-deset-sa-lukom",
         "logo": "images/restaurant/novopazarski-cevap-deset-sa-lukom.png",
