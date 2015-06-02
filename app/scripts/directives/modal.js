@@ -16,6 +16,8 @@ angular.module('restaurantsApp')
       this.showImage = function(index) {
         modalInstance && modalInstance.dismiss();
 
+        $scope.startAt = index;
+
         $modal.open({
           templateUrl: 'views/modal.html',
           size: 'md',
