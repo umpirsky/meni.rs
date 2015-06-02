@@ -27,6 +27,7 @@ module.exports = function(config) {
       'bower_components/angular-route/angular-route.js',
       'bower_components/slick-carousel/slick/slick.min.js',
       'bower_components/angular-slick/dist/slick.js',
+      'bower_components/flexslider/jquery.flexslider.js',
       'bower_components/angular-flexslider/angular-flexslider.js',
       'bower_components/angular-bootstrap/ui-bootstrap-tpls.js',
       'bower_components/bootstrap/dist/js/bootstrap.js',

@@ -28,4 +28,10 @@ angular
       .otherwise({
         redirectTo: '/'
       });
-  });
+  })
+  .run(function ($rootScope, $modalStack) {
+    $rootScope.$on('$routeChangeSuccess', function () {
+      $modalStack.dismissAll();
+    });
+  })
+;

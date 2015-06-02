@@ -4,40 +4,9 @@
  * @name restaurantsApp.controller:RestaurantCtrl
  */
 angular.module('restaurantsApp')
-  .controller('RestaurantCtrl', function ($scope, $routeParams, $http, $modal) {
+  .controller('RestaurantCtrl', function ($scope, $routeParams, $http) {
     $http.get('data/' + $routeParams.slug + '.json').success(function(data) {
       $scope.restaurant = data;
-    });
-
-    $(document).on('click', 'slick a', function() {
-      $scope.startAt = $(this).data('index');
-
-      var modal = $modal.open({
-        templateUrl: 'views/modal.html',
-        scope: $scope
-      });
-
-      $scope.close = function() {
-        modal.close();
-      };
-
-      $scope.$on('$routeChangeStart', function() {
-        modal.close();
-      });
-
-      var toggleBackdrop = function(toggle) {
-        $('.modal-backdrop').toggle(toggle);
-      };
-
-      modal.opened.then(function() {
-        toggleBackdrop(true);
-      });
-
-      modal.result.then(function() {
-        toggleBackdrop(false);
-      }, function () {
-        toggleBackdrop(false);
-      });
     });
 
     $scope.breakpoints = [{
