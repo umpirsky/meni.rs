@@ -9,6 +9,14 @@ angular.module('restaurantsApp')
       $scope.restaurant = data;
     });
 
+    $scope.slickOnInit = function(){
+      console.log('init');
+      $scope.refreshing=true;
+      $scope.$apply();
+      $scope.refreshing=false;
+      $scope.$apply();
+    };
+
     $scope.breakpoints = [{
       breakpoint: 1024,
       settings: {
