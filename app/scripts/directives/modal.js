@@ -11,21 +11,17 @@ angular.module('restaurantsApp')
     };
 
     function controller($scope) {
-      var modalInstance;
+    }
 
-      $(document).on('click', 'slick a', function() {
-        $scope.startAt = $(this).data('index');
-
-        modalInstance && modalInstance.dismiss();
+    function link(scope, element, attrs, ctrl) {
+      element.on('click', function() {
+        scope.startAt = $(this).data('index');
 
         $modal.open({
           templateUrl: 'views/modal.html',
           size: 'md',
-          scope: $scope,
+          scope: scope,
         });
       });
-    }
-
-    function link(scope, element, attrs, ctrl) {
     }
 });
