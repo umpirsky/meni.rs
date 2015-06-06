@@ -4,10 +4,14 @@
  * @name restaurantsApp.controller:RestaurantCtrl
  */
 angular.module('restaurantsApp')
-  .controller('RestaurantCtrl', function ($scope, $routeParams, $http) {
+  .controller('RestaurantCtrl', function ($scope, $routeParams, $http, $modalStack) {
     $http.get('data/' + $routeParams.slug + '.json').success(function(data) {
       $scope.restaurant = data;
     });
+
+    $scope.close = function() {
+      $modalStack.dismissAll();
+    };
 
     $scope.slickOnInit = function() {
       $scope.refreshing = true;
