@@ -4,9 +4,9 @@
     <img ng-src="{{ restaurant.logo }}" class="img-centered restaurant-logo" alt="{{ restaurant.name }}">
 </div>
 <div class="row">
-    <div class="col-md-3 col-sm-3 col-xs-6">
+    <div class="col-md-3 col-sm-3 col-xs-6"  ng-class="restaurant.phone ? '' : 'opacity-75'">
         <div class="media">
-            <a class="pull-left" href="tel:{{ restaurant.phone }}">
+            <a class="pull-left" ng-href="tel:{{ restaurant.phone }}">
                 <i class="fa fa-phone fa-2x"></i>
             </a>
             <div class="media-body">
