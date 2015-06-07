@@ -60,6 +60,12 @@
         "tags": "giros, ćevap, suvlaki"
     },
     {
+        "name": "Caribic Pizza",
+        "slug": "caribic-pizza",
+        "logo": "images/restaurant/caribic-pizza.png",
+        "tags": "pica, salata, krofna"
+    },
+    {
         "name": "Rapido",
         "slug": "rapido",
         "logo": "images/restaurant/rapido.jpg",
