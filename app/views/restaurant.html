@@ -46,9 +46,9 @@
         </div>
     </div>
 </div>
-<slick on-set-position="slickOnInit()" init-onload="false" data="restaurant.images" slides-to-show="4" slides-to-scroll="1" class="slider filtering" responsive="breakpoints">
+<slick init-onload="false" data="restaurant.images" slides-to-show="4" slides-to-scroll="1" class="slider filtering" responsive="breakpoints">
     <div ng-repeat="image in restaurant.images" modal>
-        <a ng-if="!refreshing" ng-click="modal.show($index)">
+        <a ng-click="modal.show($index)" href="javascript:;">
             <img ng-src="{{ image | thumbnail:200 }}" class="img-responsive" alt="{{ restaurant.name }}">
         </a>
     </div>
