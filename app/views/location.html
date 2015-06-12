@@ -1,0 +1,19 @@
+<div class="section-heading">
+    <img src="images/logo/logo_6.1_transparent_200x200.png" alt="" class="logo">
+    <div class="divider"></div>
+    <h1>Šta jesti?</h1>
+    <form id="search">
+        <div class="form-group">
+            <input id="query" ng-model="query" type="text" class="form-control" placeholder="Pretraži">
+        </div>
+    </form>
+</div>
+<div class="row">
+    <div ng-repeat="restaurant in restaurants | filter:query" class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+        <div class="restaurant-item">
+            <a ng-href="#/nis/{{ restaurant.slug }}">
+                <img ng-src="{{ restaurant.logo }}" class="img-responsive" alt="{{ restaurant.name }}">
+            </a>
+        </div>
+    </div>
+</div>

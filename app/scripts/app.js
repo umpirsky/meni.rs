@@ -21,9 +21,13 @@ angular
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
-      .when('/nis/:slug', {
+      .when('/:location/:slug', {
         templateUrl: 'views/restaurant.html',
         controller: 'RestaurantCtrl'
+      })
+      .when('/:location', {
+        templateUrl: 'views/location.html',
+        controller: 'LocationCtrl'
       })
       .otherwise({
         redirectTo: '/'

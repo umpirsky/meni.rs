@@ -1,13 +1,22 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700);
 
+$color-dark-grey: #666666;
+$color-light-grey: #999999;
+$color-purple: #cc6698;
+
 body {
   font-family: 'Roboto Condensed', sans-serif;
-  color: #666666;
+  color: $color-dark-grey;
   -webkit-font-smoothing: antialiased;
 }
 
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
 h1 {
-  color: #666666;
+  color: $color-dark-grey;
 }
 
 .opacity-75
@@ -34,7 +43,7 @@ h1 {
 
 .section-heading p {
   font-size: 25px;
-  color: #999999;
+  color: $color-light-grey;
   font-weight: 300;
 }
 
@@ -57,12 +66,26 @@ section#main {
   position: relative;
 }
 
+section#main .location-item {
+  text-align: center;
+  font-size: 17px;
+  line-height: 25px;
+}
+
 section#main .restaurant-item {
   text-align: center;
   font-size: 17px;
   line-height: 25px;
-  color: #999999;
+  color: $color-light-grey;
   margin-bottom: 40px;
+}
+
+section#main .location-item a {
+  text-decoration: none;
+}
+
+section#main .location-item a > h2 {
+  color: $color-dark-grey;
 }
 
 div.restaurant-item img {
@@ -185,7 +208,7 @@ form .form-control {
 }
 
 section .section-heading .divider:after {
-  background: #cc6698;
+  background: $color-purple;
 }
 
 section#main .slider {
@@ -261,21 +284,21 @@ section#main .filter a {
 }
 
 footer {
-  background: #cc6698;
+  background: $color-purple;
   /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #cc6698 0%, #6b396c 100%);
+  background: -moz-linear-gradient(-45deg, $color-purple 0%, #6b396c 100%);
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #cc6698), color-stop(100%, #6b396c));
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, $color-purple), color-stop(100%, #6b396c));
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(-45deg, #cc6698 0%, #6b396c 100%);
+  background: -webkit-linear-gradient(-45deg, $color-purple 0%, #6b396c 100%);
   /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(-45deg, #cc6698 0%, #6b396c 100%);
+  background: -o-linear-gradient(-45deg, $color-purple 0%, #6b396c 100%);
   /* Opera 11.10+ */
-  background: -ms-linear-gradient(-45deg, #cc6698 0%, #6b396c 100%);
+  background: -ms-linear-gradient(-45deg, $color-purple 0%, #6b396c 100%);
   /* IE10+ */
-  background: linear-gradient(-45deg, #cc6698 0%, #6b396c 100%);
+  background: linear-gradient(-45deg, $color-purple 0%, #6b396c 100%);
   /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc6698, endColorstr=#6b396c, GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-purple, endColorstr=#6b396c, GradientType=1);
   /* IE6-9 fallback on horizontal gradient */
 }
 
@@ -292,7 +315,7 @@ footer .social a:hover {
 }
 
 footer .social a:hover i {
-  color: #cc6698;
+  color: $color-purple;
 }
 
 footer .rights {
@@ -306,8 +329,8 @@ footer .rights a {
 }
 
 form .form-control:focus {
-  border-color: #cc6698;
-  color: #999999;
+  border-color: $color-purple;
+  color: $color-light-grey;
 }
 
 .flex-direction-nav a {
@@ -320,12 +343,12 @@ form .form-control:focus {
 }
 
 .media a {
-  color: #cc6698;
+  color: $color-purple;
 }
 
 .media i.fa {
-  border: 2px solid #cc6698;
-  color: #cc6698;
+  border: 2px solid $color-purple;
+  color: $color-purple;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -343,7 +366,7 @@ form .form-control:focus {
 
 .media:hover i.fa {
   color: #ffffff;
-  background: #cc6698;
+  background: $color-purple;
 }
 
 .media .media-heading {
