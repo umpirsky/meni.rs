@@ -2,127 +2,127 @@
     {
         "name": "Pasta Bar 2x2",
         "slug": "dva-puta-dva",
-        "logo": "images/restaurant/dva-puta-dva.jpg",
+        "logo": "images/restaurant/nis/dva-puta-dva.jpg",
         "tags": "pasta, sos, carbonara, bolognese, pollo"
     },
     {
         "name": "Gyros 4U",
         "slug": "gyros4u",
-        "logo": "images/restaurant/gyros4u.png",
+        "logo": "images/restaurant/nis/gyros4u.png",
         "tags": "giros"
     },
     {
         "name": "Go-Go",
         "slug": "go-go",
-        "logo": "images/restaurant/go-go.jpg",
+        "logo": "images/restaurant/nis/go-go.jpg",
         "tags": "pica, sendvič, palačinka"
     },
     {
         "name": "Pink Panter",
         "slug": "pink-panter",
-        "logo": "images/restaurant/pink-panter.jpg",
+        "logo": "images/restaurant/nis/pink-panter.jpg",
         "tags": "roštilj, somun, pljeskavica, batak, file, ražnjić, kobasica, pomfrit"
     },
     {
         "name": "Roštiljko",
         "slug": "rostiljko",
-        "logo": "images/restaurant/rostiljko.png",
+        "logo": "images/restaurant/nis/rostiljko.png",
         "tags": "roštilj, pljeskavica, batak, file, ražnjić, kobasica, pomfrit, ćevap"
     },
     {
         "name": "Good Food",
         "slug": "good-food",
-        "logo": "images/restaurant/good-food.png",
+        "logo": "images/restaurant/nis/good-food.png",
         "tags": "burger, wrap, pica, sendvič, pomfrit, palačinka"
     },
     {
         "name": "The Regent",
         "slug": "the-regent",
-        "logo": "images/restaurant/the-regent.png",
+        "logo": "images/restaurant/nis/the-regent.png",
         "tags": "sendvič, pasta, njoke, pomfrit, salata, rižoto, omplet, pita, burito"
     },
     {
         "name": "Night & Day",
         "slug": "night-and-day",
-        "logo": "images/restaurant/night-and-day.png",
+        "logo": "images/restaurant/nis/night-and-day.png",
         "tags": "pica, pasta, sendvič, salata, palačinka"
     },
     {
         "name": "Geppetto",
         "slug": "geppetto",
-        "logo": "images/restaurant/geppetto.jpg",
+        "logo": "images/restaurant/nis/geppetto.jpg",
         "tags": "pica, sendvič, palačinka"
     },
     {
         "name": "Goldy's",
         "slug": "goldys",
-        "logo": "images/restaurant/goldys.png",
+        "logo": "images/restaurant/nis/goldys.png",
         "tags": "giros, ćevap, suvlaki"
     },
     {
         "name": "Caribic Pizza",
         "slug": "caribic-pizza",
-        "logo": "images/restaurant/caribic-pizza.png",
+        "logo": "images/restaurant/nis/caribic-pizza.png",
         "tags": "pica, salata, krofna"
     },
     {
         "name": "Rapido",
         "slug": "rapido",
-        "logo": "images/restaurant/rapido.jpg",
+        "logo": "images/restaurant/nis/rapido.jpg",
         "tags": "salata, sendvič, palačinka"
     },
     {
         "name": "La Strega",
         "slug": "la-strega",
-        "logo": "images/restaurant/la-strega.png",
+        "logo": "images/restaurant/nis/la-strega.png",
         "tags": "pasta, pica, palačinka"
     },
     {
         "name": "Cezar",
         "slug": "cezar",
-        "logo": "images/restaurant/cezar.png",
+        "logo": "images/restaurant/nis/cezar.png",
         "tags": "pica, sendvič, salata, palačinka"
     },
     {
         "name": "Pleasure",
         "slug": "pleasure",
-        "logo": "images/restaurant/pleasure.png",
+        "logo": "images/restaurant/nis/pleasure.png",
         "tags": "sendvič, salata, piletina, biftek, riba, rižoto"
     },
     {
         "name": "Sofronije Chicken Corner",
         "slug": "sofronije-chicken-corner",
-        "logo": "images/restaurant/sofronije-chicken-corner.png",
+        "logo": "images/restaurant/nis/sofronije-chicken-corner.png",
         "tags": "piletina, sendvič, pomfrit"
     },
     {
         "name": "Pekara Branković",
         "slug": "brankovic",
-        "logo": "images/restaurant/brankovic.jpg",
+        "logo": "images/restaurant/nis/brankovic.jpg",
         "tags": "burek, pica, pecivo, sendvič, kroasan"
     },
     {
         "name": "Kabak",
         "slug": "kabak",
-        "logo": "images/restaurant/kabak.jpg",
+        "logo": "images/restaurant/nis/kabak.jpg",
         "tags": "burek, pica, pecivo, sendvič, kroasan"
     },
     {
         "name": "Žitopek",
         "slug": "zitopek",
-        "logo": "images/restaurant/zitopek.png",
+        "logo": "images/restaurant/nis/zitopek.png",
         "tags": "burek, pita, kroasan"
     },
     {
         "name": "Novopazarski ćevap deset sa lukom",
         "slug": "novopazarski-cevap-deset-sa-lukom",
-        "logo": "images/restaurant/novopazarski-cevap-deset-sa-lukom.png",
+        "logo": "images/restaurant/nis/novopazarski-cevap-deset-sa-lukom.png",
         "tags": "ćevap, pljeskavica, sudžuk"
     },
     {
         "name": "Pizza Boss",
         "slug": "pizza-boss",
-        "logo": "images/restaurant/pizza-boss.jpg",
+        "logo": "images/restaurant/nis/pizza-boss.jpg",
         "tags": "pica, sendvič, palačinka"
     }
 ]
