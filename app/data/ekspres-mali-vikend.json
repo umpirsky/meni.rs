@@ -1,0 +1,12 @@
+{
+    "name": "Ekspres Mali Vikend",
+    "logo": "images/restaurant/ekspres-mali-vikend.jpg",
+    "phone": "065 56 25 250, 018 527 296",
+    "delivery": false,
+    "address": "Nikole Pašića 2, Niš",
+    "url": "https://www.facebook.com/pages/Ekspres-Mali-Vikend/1626293114272890",
+    "images": [
+        "images/menu/ekspres-mali-vikend/1.jpg",
+        "images/menu/ekspres-mali-vikend/2.jpg"
+    ]
+}
