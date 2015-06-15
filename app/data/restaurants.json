@@ -30,6 +30,12 @@
         "tags": "roštilj, pljeskavica, batak, file, ražnjić, kobasica, pomfrit, ćevap"
     },
     {
+        "name": "Ekspres Mali Vikend",
+        "slug": "ekspres-mali-vikend",
+        "logo": "images/restaurant/ekspres-mali-vikend.jpg",
+        "tags": "roštilj, pljeskavica, batak, file, ražnjić, kobasica, pomfrit, ćevap"
+    },
+    {
         "name": "Good Food",
         "slug": "good-food",
         "logo": "images/restaurant/good-food.png",
