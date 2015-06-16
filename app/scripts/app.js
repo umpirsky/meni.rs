@@ -8,6 +8,7 @@ angular
     'restaurantsServices',
     'restaurantsFilters',
     'ngAnimate',
+    'ngCookies',
     'ngResource',
     'ngRoute',
     'ngTouch',
