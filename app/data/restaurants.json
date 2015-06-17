@@ -90,6 +90,12 @@
         "tags": "pica, sendvič, salata, palačinka"
     },
     {
+        "name": "Compass",
+        "slug": "compass",
+        "logo": "images/restaurant/compass.png",
+        "tags": "pica, sendvič, salata, palačinka"
+    },
+    {
         "name": "Pleasure",
         "slug": "pleasure",
         "logo": "images/restaurant/pleasure.png",
