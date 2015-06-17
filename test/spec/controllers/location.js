@@ -1,16 +1,17 @@
 'use strict';
 
-describe('Controller: MainCtrl', function () {
+describe('Controller: LocationCtrl', function () {
 
   // load the controller's module
   beforeEach(module('restaurantsApp'));
 
-  var MainCtrl, scope, $httpBackend;
+  var LocationCtrl, scope, $httpBackend;
 
   // Initialize the controller and a mock scope
-  beforeEach(inject(function ($controller, $rootScope, _$httpBackend_) {
+  beforeEach(inject(function ($controller, $rootScope, $routeParams, _$httpBackend_) {
+    $routeParams.location = 'nis';
     $httpBackend = _$httpBackend_;
-    $httpBackend.expectGET('data/restaurants.json').
+    $httpBackend.expectGET('data/nis.json').
       respond([
         {
           'name': 'Pasta Bar 2x2',
@@ -25,7 +26,7 @@ describe('Controller: MainCtrl', function () {
       ]);
 
     scope = $rootScope.$new();
-    MainCtrl = $controller('MainCtrl', {
+    LocationCtrl = $controller('LocationCtrl', {
       $scope: scope
     });
   }));
