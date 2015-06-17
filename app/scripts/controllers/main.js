@@ -10,10 +10,10 @@ angular.module('restaurantsApp')
         return;
       }
 
-      $location.path('/' + location);
-
       $timeout(function() {
-        $scope.$apply();
+        $scope.$apply(function() {
+          $location.path('/' + location);
+        });
       });
     });
   });
