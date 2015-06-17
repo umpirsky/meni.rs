@@ -1,6 +1,8 @@
 {
   "name": "restaurants",
-  "dependencies": {},
+  "dependencies": {
+    "npm": "~2.11.2"
+  },
   "repository": {},
   "devDependencies": {
     "grunt": "~0.4.5",
