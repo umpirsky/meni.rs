@@ -7,7 +7,7 @@ before_script:
   - sudo apt-get install -y --force-yes graphicsmagick
   - gem install compass
   - npm install -g bower grunt-cli
-  - npm install npm
+  - npm update -g npm
   - npm install
   - bower install
   - export DISPLAY=:99.0
