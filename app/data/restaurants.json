@@ -24,6 +24,12 @@
         "tags": "roštilj, somun, pljeskavica, batak, file, ražnjić, kobasica, pomfrit"
     },
     {
+        "name": "Kluzzo",
+        "slug": "kluzzo",
+        "logo": "images/restaurant/kluzzo.jpg",
+        "tags": "tost, palačinka, sendvič"
+    },
+    {
         "name": "Roštiljko",
         "slug": "rostiljko",
         "logo": "images/restaurant/rostiljko.png",
