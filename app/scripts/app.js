@@ -21,6 +21,9 @@ angular
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
+      .when('/grad', {
+        templateUrl: 'views/main.html'
+      })
       .when('/:location/:slug', {
         templateUrl: 'views/restaurant.html',
         controller: 'RestaurantCtrl'
