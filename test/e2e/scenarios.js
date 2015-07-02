@@ -31,4 +31,14 @@ describe('Restaurants App', function() {
       expect(restaurantList.count()).toBe(1);
     });
   });
+
+  describe('Restaurant details', function() {
+    beforeEach(function() {
+      browser.get('/#/nis/dva-puta-dva');
+    });
+
+    it('should show restaurant title', function() {
+      expect(element(by.model('restaurant.name')).getText()).toEqual('Pasta Bar 2x2');
+    });
+  });
 });
