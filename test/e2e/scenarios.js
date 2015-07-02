@@ -38,7 +38,9 @@ describe('Restaurants App', function() {
     });
 
     it('should show restaurant title', function() {
-      expect(element(by.model('restaurant.name')).getText()).toEqual('Pasta Bar 2x2');
+      expect(element(by.binding('restaurant.name')).getText()).toEqual('Pasta Bar 2x2');
+      expect(element(by.binding('restaurant.phone')).getText()).toEqual('069 224 22 44');
+      expect(element(by.binding('restaurant.address')).getText()).toEqual('Sinđelićev trg 25, Niš');
     });
   });
 });
