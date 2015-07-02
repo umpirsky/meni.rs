@@ -5,11 +5,10 @@
  */
 angular
   .module('restaurantsApp', [
-    'restaurantsServices',
-    'restaurantsFilters',
     'ngAnimate',
     'ngResource',
     'ngRoute',
+    'ngCookies',
     'ngTouch',
     'slick',
     'angular-flexslider',

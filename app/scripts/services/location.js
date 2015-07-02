@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('restaurantsServices', ['ngCookies'])
+angular.module('restaurantsApp')
   .factory('locationDetect', ['$location', '$timeout', '$cookies', function($location, $timeout, $cookies) {
     return function(located) {
       var handleLocation = function(location) {
