@@ -20,7 +20,7 @@ angular
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
-      .when('/grad', {
+      .when('/gradovi', {
         templateUrl: 'views/main.html'
       })
       .when('/:location/:slug', {
