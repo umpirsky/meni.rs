@@ -21,6 +21,7 @@ angular
         controller: 'MainCtrl'
       })
       .when('/gradovi', {
+        title: 'Meniji restorana u Srbiji, naručite hranu za dostavu u Nišu ili Novom Sadu',
         templateUrl: 'views/main.html'
       })
       .when('/:location/:slug', {
@@ -36,8 +37,11 @@ angular
       });
   })
   .run(function ($rootScope, $modalStack) {
-    $rootScope.$on('$routeChangeSuccess', function () {
+    $rootScope.$on('$routeChangeSuccess', function (event, current, previous) {
       $modalStack.dismissAll();
+      if (typeof current.$$route.title !== 'undefined') {
+        $rootScope.title = current.$$route.title;
+      }
     });
   })
 ;

@@ -4,8 +4,8 @@
  * @name restaurantsApp.controller:LocationCtrl
  */
 angular.module('restaurantsApp')
-  .controller('LocationCtrl', function ($scope, $routeParams, $http, locationByKeyLocative) {
-    $scope.location = locationByKeyLocative($routeParams.location);
+  .controller('LocationCtrl', function ($rootScope, $scope, $routeParams, $http, locationByKeyLocative) {
+    $rootScope.title = 'Meniji restorana u ' + locationByKeyLocative($routeParams.location) + ', naručite hranu za dostavu brzo i lako';
 
     $http.get('data/' + $routeParams.location + '.json').success(function(data) {
       $scope.restaurants = data;

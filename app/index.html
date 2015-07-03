@@ -3,7 +3,7 @@
 <!--[if IE 7]><html lang="sr" class="no-js ie7"><![endif]-->
 <!--[if IE 8]><html lang="sr" class="no-js ie8"><![endif]-->
 <!--[if gt IE 8]><!-->
-<html lang="sr" class="no-js">
+<html lang="sr" class="no-js" ng-app="restaurantsApp">
 <!--<![endif]-->
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -13,7 +13,7 @@
     <meta property="og:title" content="Šta jesti?" />
     <meta property="og:description" content="Projekat koji daje odgovor na večito pitanje. Meniji restorana u Srbiji, naručite hranu za dostavu brzo i lako." />
     <meta property="og:image" content="http://stajesti.rs/images/logo/logo_6.1_transparent_200x200.png" />
-    <title>Šta jesti? - Meniji restorana u Srbiji, naručite hranu za dostavu brzo i lako</title>
+    <title ng-bind="'Šta jesti? - ' + (title || 'Meniji restorana u Srbiji, naručite hranu za dostavu brzo i lako')">Šta jesti? - Meniji restorana u Srbiji, naručite hranu za dostavu brzo i lako</title>
     <link rel="shortcut icon" href="favicon.png">
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
@@ -33,7 +33,7 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body ng-app="restaurantsApp">
+<body>
     <header>
         <nav class="navbar navbar-default navbar-fixed-top scrolled" role="navigation">
             <div class="container">
