@@ -4,9 +4,11 @@
  * @name restaurantsApp.controller:RestaurantCtrl
  */
 angular.module('restaurantsApp')
-  .controller('RestaurantCtrl', function ($scope, $routeParams, $http, $modalStack) {
+  .controller('RestaurantCtrl', function ($rootScope, $scope, $routeParams, $http, $modalStack) {
     $http.get('data/' + $routeParams.location + '/' + $routeParams.slug + '.json').success(function(data) {
       $scope.restaurant = data;
+
+      $rootScope.title = $scope.restaurant.name;
     });
 
     $scope.close = function() {
