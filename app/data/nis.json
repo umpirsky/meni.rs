@@ -26,7 +26,7 @@
     {
         "name": "Kluzzo",
         "slug": "kluzzo",
-        "logo": "images/restaurant/kluzzo.jpg",
+        "logo": "images/restaurant/nis/kluzzo.jpg",
         "tags": "tost, palačinka, sendvič"
     },
     {
@@ -38,7 +38,7 @@
     {
         "name": "Ekspres Mali Vikend",
         "slug": "ekspres-mali-vikend",
-        "logo": "images/restaurant/ekspres-mali-vikend.jpg",
+        "logo": "images/restaurant/nis/ekspres-mali-vikend.jpg",
         "tags": "roštilj, pljeskavica, batak, file, ražnjić, kobasica, pomfrit, ćevap"
     },
     {
@@ -98,7 +98,7 @@
     {
         "name": "Compass",
         "slug": "compass",
-        "logo": "images/restaurant/compass.png",
+        "logo": "images/restaurant/nis/compass.png",
         "tags": "pica, sendvič, salata, palačinka"
     },
     {

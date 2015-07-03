@@ -39,6 +39,7 @@ angular
   .run(function ($rootScope, $modalStack) {
     $rootScope.$on('$routeChangeSuccess', function (event, current, previous) {
       $modalStack.dismissAll();
+
       if (typeof current.$$route.title !== 'undefined') {
         $rootScope.title = current.$$route.title;
       }
