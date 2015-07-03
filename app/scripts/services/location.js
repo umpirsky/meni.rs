@@ -32,4 +32,9 @@ angular.module('restaurantsApp')
       }
     }
   }])
+  .factory('locationByKeyLocative', [function() {
+    return function(key) {
+      return {'nis': 'Nišu', 'novi-sad': 'Novom Sadu'}[key];
+    }
+  }])
 ;
