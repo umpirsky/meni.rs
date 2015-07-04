@@ -6,6 +6,12 @@
         "tags": "pica, salata, giros, sendvič"
     },
     {
+        "name": "Apetit bar",
+        "slug": "apetit-bar",
+        "logo": "images/restaurant/novi-sad/apetit-bar.jpg",
+        "tags": "supa, salata, rižoto, sir, pasulj, lazanje, grašak, omlet, pasta, sendvič, boranija, burger, palačinka"
+    },
+    {
         "name": "Minuta",
         "slug": "minuta",
         "logo": "images/restaurant/novi-sad/minuta.jpg",
