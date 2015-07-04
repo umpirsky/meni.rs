@@ -2,7 +2,7 @@
     {
         "name": "Pasta Bar 2x2",
         "slug": "dva-puta-dva",
-        "logo": "images/restaurant/nis/dva-puta-dva.jpg",
+        "logo": "images/restaurant/nis/dva-puta-dva.png",
         "tags": "pasta, sos, carbonara, bolognese, pollo"
     },
     {
@@ -14,7 +14,7 @@
     {
         "name": "Go-Go",
         "slug": "go-go",
-        "logo": "images/restaurant/nis/go-go.jpg",
+        "logo": "images/restaurant/nis/go-go.png",
         "tags": "pica, sendvič, palačinka"
     },
     {
@@ -122,7 +122,7 @@
     {
         "name": "Kabak",
         "slug": "kabak",
-        "logo": "images/restaurant/nis/kabak.jpg",
+        "logo": "images/restaurant/nis/kabak.png",
         "tags": "burek, pica, pecivo, sendvič, kroasan"
     },
     {
