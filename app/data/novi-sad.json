@@ -22,5 +22,11 @@
         "slug": "amigos",
         "logo": "images/restaurant/novi-sad/amigos.png",
         "tags": "krilca, pomfrit, piletina"
+    },
+    {
+        "name": "Borsalino",
+        "slug": "borsalino",
+        "logo": "images/restaurant/novi-sad/borsalino.jpg",
+        "tags": "pica, pasta, čorba, lazanje, salata, palačinka"
     }
 ]
