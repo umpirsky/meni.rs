@@ -6,6 +6,12 @@
         "tags": "pica, salata, giros, sendvič"
     },
     {
+        "name": "Minuta",
+        "slug": "minuta",
+        "logo": "images/restaurant/novi-sad/minuta.jpg",
+        "tags": "salata, sendvič, burger, giros, pica, palačinka, sladoled"
+    },
+    {
         "name": "Amigos",
         "slug": "amigos",
         "logo": "images/restaurant/novi-sad/amigos.png",
