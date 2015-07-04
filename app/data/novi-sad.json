@@ -30,6 +30,12 @@
         "tags": "pica, pasta, čorba, lazanje, salata, palačinka"
     },
     {
+        "name": "Pizza Servis Roma",
+        "slug": "pizza-servis-roma",
+        "logo": "images/restaurant/novi-sad/pizza-servis-roma.png",
+        "tags": "pica, salata, palačinka, pasta, sendvič, roštilj"
+    },
+    {
         "name": "Kod Jefte",
         "slug": "kod-jefte",
         "logo": "images/restaurant/novi-sad/kod-jefte.png",

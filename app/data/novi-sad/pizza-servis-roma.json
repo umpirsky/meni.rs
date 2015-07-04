@@ -1,0 +1,16 @@
+{
+    "name": "Pizza Servis Roma",
+    "logo": "images/restaurant/novi-sad/pizza-servis-roma.png",
+    "phone": "063 594 094, 021 401 494, 0600 401 494",
+    "delivery": true,
+    "address": "Pap Pavla 22, Novi Sad",
+    "url": "http://romapizzaservis.com",
+    "images": [
+        "images/menu/novi-sad/pizza-servis-roma/1.jpg",
+        "images/menu/novi-sad/pizza-servis-roma/2.jpg",
+        "images/menu/novi-sad/pizza-servis-roma/3.jpg",
+        "images/menu/novi-sad/pizza-servis-roma/4.jpg",
+        "images/menu/novi-sad/pizza-servis-roma/5.jpg",
+        "images/menu/novi-sad/pizza-servis-roma/6.jpg"
+    ]
+}
