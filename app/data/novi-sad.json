@@ -28,5 +28,11 @@
         "slug": "borsalino",
         "logo": "images/restaurant/novi-sad/borsalino.jpg",
         "tags": "pica, pasta, čorba, lazanje, salata, palačinka"
+    },
+    {
+        "name": "Kod Jefte",
+        "slug": "kod-jefte",
+        "logo": "images/restaurant/novi-sad/kod-jefte.png",
+        "tags": "roštilj, pljeskavica, batak, file, ražnjić, kobasica, vešalica, ćevap"
     }
 ]
