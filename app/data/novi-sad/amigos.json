@@ -1,0 +1,12 @@
+{
+    "name": "Amigos",
+    "logo": "images/restaurant/novi-sad/amigos.png",
+    "phone": "064 002 73 73, 021 529 022",
+    "delivery": true,
+    "address": "Maksima Gorkog 1A, Novi Sad",
+    "url": "http://www.amigos.rs",
+    "images": [
+        "images/menu/novi-sad/amigos/1.jpg",
+        "images/menu/novi-sad/amigos/2.jpg"
+    ]
+}

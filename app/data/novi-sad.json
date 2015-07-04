@@ -4,5 +4,11 @@
         "slug": "hedansa",
         "logo": "images/restaurant/novi-sad/hedansa.png",
         "tags": "pica, salata, giros, sendvič"
+    },
+    {
+        "name": "Amigos",
+        "slug": "amigos",
+        "logo": "images/restaurant/novi-sad/amigos.png",
+        "tags": "krilca, pomfrit, piletina"
     }
 ]
