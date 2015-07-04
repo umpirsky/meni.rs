@@ -30,6 +30,12 @@
         "tags": "pica, pasta, čorba, lazanje, salata, palačinka"
     },
     {
+        "name": "Pinokio",
+        "slug": "pinokio",
+        "logo": "images/restaurant/novi-sad/pinokio.jpg",
+        "tags": "palačinka"
+    },
+    {
         "name": "Pizza Servis Roma",
         "slug": "pizza-servis-roma",
         "logo": "images/restaurant/novi-sad/pizza-servis-roma.png",
