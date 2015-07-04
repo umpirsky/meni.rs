@@ -12,6 +12,12 @@
         "tags": "supa, salata, rižoto, sir, pasulj, lazanje, grašak, omlet, pasta, sendvič, boranija, burger, palačinka"
     },
     {
+        "name": "Kuća kobasice",
+        "slug": "kuca-kobasice",
+        "logo": "images/restaurant/novi-sad/kuca-kobasice.png",
+        "tags": "kobasica, ćevap, hot dog"
+    },
+    {
         "name": "Minuta",
         "slug": "minuta",
         "logo": "images/restaurant/novi-sad/minuta.jpg",
