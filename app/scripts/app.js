@@ -5,7 +5,6 @@
  */
 angular
   .module('restaurantsApp', [
-    'ngAnimate',
     'ngResource',
     'ngRoute',
     'ngCookies',
