@@ -18,6 +18,12 @@
         "tags": "kobasica, ćevap, hot dog"
     },
     {
+        "name": "Balans palačinke",
+        "slug": "balans-palacinke",
+        "logo": "images/restaurant/novi-sad/balans-palacinke.jpg",
+        "tags": "palačinka, sendvič"
+    },
+    {
         "name": "Minuta",
         "slug": "minuta",
         "logo": "images/restaurant/novi-sad/minuta.png",

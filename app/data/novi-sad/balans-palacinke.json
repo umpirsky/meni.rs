@@ -1,0 +1,11 @@
+{
+    "name": "Balans palačinke",
+    "logo": "images/restaurant/novi-sad/balans-palacinke.jpg",
+    "phone": "064 077 4458",
+    "delivery": true,
+    "address": "Jevrejska 42, Novi Sad",
+    "url": "https://www.facebook.com/BalansPalacinke",
+    "images": [
+        "images/menu/novi-sad/balans-palacinke/1.jpg"
+    ]
+}
