@@ -48,6 +48,12 @@
         "tags": "pica, salata, palačinka, pasta, sendvič, roštilj"
     },
     {
+        "name": "Dizni",
+        "slug": "dizni",
+        "logo": "images/restaurant/novi-sad/dizni.jpg",
+        "tags": "pica, salata, palačinka, pasta"
+    },
+    {
         "name": "Kod Jefte",
         "slug": "kod-jefte",
         "logo": "images/restaurant/novi-sad/kod-jefte.png",
