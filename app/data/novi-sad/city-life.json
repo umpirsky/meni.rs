@@ -1,0 +1,18 @@
+{
+    "name": "City Life",
+    "logo": "images/restaurant/novi-sad/city-life.jpg",
+    "phone": "061 13 19 119, 021 636 43 74",
+    "delivery": false,
+    "address": "Cara Dušana 19, Novi Sad",
+    "url": "http://citylife.rs",
+    "images": [
+        "images/menu/novi-sad/city-life/1.png",
+        "images/menu/novi-sad/city-life/2.png",
+        "images/menu/novi-sad/city-life/3.png",
+        "images/menu/novi-sad/city-life/4.png",
+        "images/menu/novi-sad/city-life/5.png",
+        "images/menu/novi-sad/city-life/6.png",
+        "images/menu/novi-sad/city-life/7.png",
+        "images/menu/novi-sad/city-life/8.png"
+    ]
+}

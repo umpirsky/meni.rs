@@ -30,6 +30,12 @@
         "tags": "palačinka, sendvič"
     },
     {
+        "name": "City Life",
+        "slug": "city-life",
+        "logo": "images/restaurant/novi-sad/city-life.jpg",
+        "tags": "roštilj, pljeskavica, batak, file, ražnjić, kobasica, vešalica, ćevap"
+    },
+    {
         "name": "Minuta",
         "slug": "minuta",
         "logo": "images/restaurant/novi-sad/minuta.png",
