@@ -33,7 +33,7 @@
         "name": "City Life",
         "slug": "city-life",
         "logo": "images/restaurant/novi-sad/city-life.jpg",
-        "tags": "roštilj, pljeskavica, batak, file, ražnjić, kobasica, vešalica, ćevap"
+        "tags": "palačinka, salata, roštilj, pljeskavica, ćevap, piletina, rižoto, omlet"
     },
     {
         "name": "Minuta",
@@ -76,5 +76,11 @@
         "slug": "kod-jefte",
         "logo": "images/restaurant/novi-sad/kod-jefte.png",
         "tags": "roštilj, pljeskavica, batak, file, ražnjić, kobasica, vešalica, ćevap"
+    },
+    {
+        "name": "Nacho Sombrero Bar",
+        "slug": "nacho-sombrero-bar",
+        "logo": "images/restaurant/novi-sad/nacho-sombrero-bar.png",
+        "tags": "sendvič, salata, supa, čorba"
     }
 ]

@@ -1,0 +1,12 @@
+{
+    "name": "Nacho Sombrero Bar",
+    "logo": "images/restaurant/novi-sad/nacho-sombrero-bar.png",
+    "phone": "060 0545 222",
+    "delivery": true,
+    "address": "Bulevar Oslobođenja 89, Novi Sad",
+    "url": "https://www.facebook.com/NachoSombrero",
+    "images": [
+        "images/menu/novi-sad/nacho-sombrero-bar/1.jpg",
+        "images/menu/novi-sad/nacho-sombrero-bar/2.jpg"
+    ]
+}
