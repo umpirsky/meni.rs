@@ -12,6 +12,12 @@
         "tags": "supa, salata, rižoto, sir, pasulj, lazanje, grašak, omlet, pasta, sendvič, boranija, burger, palačinka"
     },
     {
+        "name": "The Camelot",
+        "slug": "the-camelot",
+        "logo": "images/restaurant/novi-sad/the-camelot.png",
+        "tags": "kobasica, ćevap, hot dog"
+    },
+    {
         "name": "Kuća kobasice",
         "slug": "kuca-kobasice",
         "logo": "images/restaurant/novi-sad/kuca-kobasice.png",
