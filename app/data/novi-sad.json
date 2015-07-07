@@ -78,6 +78,12 @@
         "tags": "pica, salata, palačinka, pasta"
     },
     {
+        "name": "Makao",
+        "slug": "makao",
+        "logo": "images/restaurant/novi-sad/makao.png",
+        "tags": "piletina, svinjetina, junetina, pirinač"
+    },
+    {
         "name": "Kod Jefte",
         "slug": "kod-jefte",
         "logo": "images/restaurant/novi-sad/kod-jefte.png",

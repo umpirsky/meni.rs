@@ -1,0 +1,12 @@
+{
+    "name": "Makao",
+    "logo": "images/restaurant/novi-sad/makao.png",
+    "phone": "065 266 44 83, 021 268 27 77",
+    "delivery": true,
+    "address": "Pere Velimirovića 7, Novi Sad",
+    "url": "http://makao-bg.com",
+    "images": [
+        "images/menu/novi-sad/makao/1.jpg",
+        "images/menu/novi-sad/makao/2.jpg"
+    ]
+}
