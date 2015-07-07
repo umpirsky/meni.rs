@@ -48,6 +48,12 @@
         "tags": "krilca, pomfrit, piletina"
     },
     {
+        "name": "Moj sendvič",
+        "slug": "moj-sendvic",
+        "logo": "images/restaurant/novi-sad/moj-sendvic.png",
+        "tags": "sendvič, salata"
+    },
+    {
         "name": "Borsalino",
         "slug": "borsalino",
         "logo": "images/restaurant/novi-sad/borsalino.jpg",
