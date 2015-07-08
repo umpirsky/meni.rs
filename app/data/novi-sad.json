@@ -54,6 +54,12 @@
         "tags": "sendvič, salata"
     },
     {
+        "name": "Kukuriku",
+        "slug": "kukuriku",
+        "logo": "images/restaurant/novi-sad/kukuriku.png",
+        "tags": "mekike, pomfrit, sendvič, piletina, pljeskavica, supa"
+    },
+    {
         "name": "Borsalino",
         "slug": "borsalino",
         "logo": "images/restaurant/novi-sad/borsalino.jpg",
