@@ -48,6 +48,12 @@
         "tags": "krilca, pomfrit, piletina"
     },
     {
+        "name": "Rasputin",
+        "slug": "rasputin",
+        "logo": "images/restaurant/novi-sad/rasputin.jpg",
+        "tags": "pica, palačinka, sendvič"
+    },
+    {
         "name": "Moj sendvič",
         "slug": "moj-sendvic",
         "logo": "images/restaurant/novi-sad/moj-sendvic.png",
