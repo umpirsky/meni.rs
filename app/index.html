@@ -3,7 +3,7 @@
 <!--[if IE 7]><html lang="sr" class="no-js ie7"><![endif]-->
 <!--[if IE 8]><html lang="sr" class="no-js ie8"><![endif]-->
 <!--[if gt IE 8]><!-->
-<html lang="sr" class="no-js">
+<html lang="sr" class="no-js" ng-app="restaurantsApp">
 <!--<![endif]-->
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -11,19 +11,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta property="og:title" content="Šta jesti?" />
-    <meta property="og:description" content="Projekat koji daje odgovor na večito pitanje." />
+    <meta property="og:description" content="Projekat koji daje odgovor na večito pitanje. Meniji restorana u Srbiji, naručite hranu za dostavu brzo i lako." />
     <meta property="og:image" content="http://stajesti.rs/images/logo/logo_6.1_transparent_200x200.png" />
-    <title>Šta jesti?</title>
+    <title ng-bind="'Šta jesti? - ' + (title || 'Meniji restorana u Srbiji, naručite hranu za dostavu brzo i lako')">Šta jesti? - Meniji restorana u Srbiji, naručite hranu za dostavu brzo i lako</title>
     <link rel="shortcut icon" href="favicon.png">
     <!-- build:css(.) styles/vendor.css -->
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
     <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/components-font-awesome/css/font-awesome.css" />
     <link rel="stylesheet" href="bower_components/slick-carousel/slick/slick.css" />
     <!-- endbower -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="bower_components/flexslider/flexslider.css">
     <!-- endbuild -->
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700">
     <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/theme.css">
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -32,7 +34,29 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body ng-app="restaurantsApp">
+<body>
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top scrolled" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="fa fa-bars fa-lg"></span>
+                    </button>
+                    <a class="navbar-brand" href="#/">
+                        <img src="images/logo/logo_6.1_transparent_200x200.png" alt="Šta jesti?" class="logo">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#/">Početna</a></li>
+                        <li><a href="#/gradovi">Gradovi</a></li>
+                        <li><a href="https://github.com/umpirsky/stajesti.rs/wiki/%C5%A0ta-jesti%3F" target="_blank">O projektu</a></li>
+                        <li><a href="mailto:info@stajesti.rs">Kontakt</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
     <div class="wrapper">
         <section id="main">
             <div class="container">
@@ -48,7 +72,6 @@
 
                 </div>
                 <div class="rights">
-                    <p><a href="https://github.com/umpirsky/stajesti.rs/wiki/%C5%A0ta-jesti%3F" target="_blank">O projektu</a></p>
                     <p>Dizajn baziran na <a href="http://www.scoopthemes.com" target="_blank">Scoop</a> temi</p>
                 </div>
             </div>
@@ -58,7 +81,7 @@
     <!-- bower:js -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/angular/angular.js"></script>
-    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
     <script src="bower_components/angular-touch/angular-touch.js"></script>
     <script src="bower_components/angular-resource/angular-resource.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
@@ -67,14 +90,17 @@
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="bower_components/slick-carousel/slick/slick.min.js"></script>
     <script src="bower_components/angular-slick/dist/slick.js"></script>
+    <script src="bower_components/geolocator/src/geolocator.js"></script>
     <!-- endbower -->
     <script src="bower_components/flexslider/jquery.flexslider.js"></script>
     <!-- endbuild -->
     <!-- build:js({.tmp,app}) scripts/scripts.js -->
     <script src="scripts/app.js"></script>
     <script src="scripts/services/url.js"></script>
+    <script src="scripts/services/location.js"></script>
     <script src="scripts/filters.js"></script>
     <script src="scripts/controllers/main.js"></script>
+    <script src="scripts/controllers/location.js"></script>
     <script src="scripts/controllers/restaurant.js"></script>
     <script src="scripts/directives/modal.js"></script>
     <!-- endbuild -->

@@ -1,0 +1,12 @@
+{
+    "name": "Rasputin",
+    "logo": "images/restaurant/novi-sad/rasputin.jpg",
+    "phone": "064 00 681 60",
+    "delivery": false,
+    "address": "Bulevar Kralja Petra 10, Novi Sad",
+    "url": "https://www.facebook.com/pages/Rasputin/280950452093585",
+    "images": [
+        "images/menu/novi-sad/rasputin/1.jpg",
+        "images/menu/novi-sad/rasputin/2.jpg"
+    ]
+}

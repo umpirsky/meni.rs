@@ -1,0 +1,11 @@
+{
+    "name": "Sofronije Chicken Corner",
+    "logo": "images/restaurant/nis/sofronije-chicken-corner.png",
+    "phone": "062 966 28 96",
+    "delivery": true,
+    "address": "Trg Pavla Stojkovića 2, Niš",
+    "url": "https://www.facebook.com/sofronije.dostava",
+    "images": [
+        "images/menu/nis/sofronije-chicken-corner/1.jpg"
+    ]
+}

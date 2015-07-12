@@ -1,0 +1,12 @@
+{
+    "name": "Kod Jefte",
+    "logo": "images/restaurant/novi-sad/kod-jefte.png",
+    "phone": "065 55 26 818, 021 526 818",
+    "delivery": true,
+    "address": "Temerinska 32, Novi Sad",
+    "url": "http://www.jefta.co.rs",
+    "images": [
+        "images/menu/novi-sad/kod-jefte/1.jpg",
+        "images/menu/novi-sad/kod-jefte/2.jpg"
+    ]
+}

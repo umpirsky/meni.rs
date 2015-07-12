@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('restaurantsServices', [])
+angular.module('restaurantsApp')
   .factory('urlText', [function() {
     return function(url) {
       var link = document.createElement('a');

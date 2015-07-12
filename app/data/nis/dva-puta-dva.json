@@ -1,0 +1,12 @@
+{
+    "name": "Pasta Bar 2x2",
+    "logo": "images/restaurant/nis/dva-puta-dva.png",
+    "phone": "069 224 22 44",
+    "delivery": false,
+    "address": "Sinđelićev trg 25, Niš",
+    "url": "https://www.facebook.com/pastabar2puta2",
+    "images": [
+        "images/menu/nis/dva-puta-dva/1.jpg",
+        "images/menu/nis/dva-puta-dva/2.jpg"
+    ]
+}

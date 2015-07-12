@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('restaurantsFilters', [])
+angular.module('restaurantsApp')
   .filter('thumbnail', function() {
     return function(url, size) {
       return url.replace('images/', 'images/thumbnails-' + size + '/');

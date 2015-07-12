@@ -4,10 +4,16 @@
  * @name restaurantsApp.controller:MainCtrl
  */
 angular.module('restaurantsApp')
-  .controller('MainCtrl', function ($scope, $http) {
-    // new Placeholdem($('#query'));
+  .controller('MainCtrl', function ($scope, $location, $timeout, locationDetect) {
+    locationDetect(function (location) {
+      if (null === location) {
+        return;
+      }
 
-    $http.get('data/restaurants.json').success(function(data) {
-      $scope.restaurants = data;
+      $timeout(function() {
+        $scope.$apply(function() {
+          $location.path('/' + location);
+        });
+      });
     });
   });

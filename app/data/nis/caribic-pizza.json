@@ -1,0 +1,16 @@
+{
+    "name": "Caribic Pizza",
+    "logo": "images/restaurant/nis/caribic-pizza.png",
+    "phone": null,
+    "delivery": false,
+    "address": "Vožda Karađorđa 4, Niš",
+    "url": "https://www.facebook.com/CaribicPizza",
+    "images": [
+        "images/menu/nis/caribic-pizza/1.jpg",
+        "images/menu/nis/caribic-pizza/2.jpg",
+        "images/menu/nis/caribic-pizza/3.jpg",
+        "images/menu/nis/caribic-pizza/4.jpg",
+        "images/menu/nis/caribic-pizza/5.jpg",
+        "images/menu/nis/caribic-pizza/6.jpg"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Pink Panter",
+    "logo": "images/restaurant/nis/pink-panter.jpg",
+    "phone": "063 786 15 22",
+    "delivery": true,
+    "address": "Nikole Pašića 7, Niš",
+    "url": "http://www.cevabdzinice.rs",
+    "images": [
+        "images/menu/nis/pink-panter/1.jpg",
+        "images/menu/nis/pink-panter/2.jpg"
+    ]
+}

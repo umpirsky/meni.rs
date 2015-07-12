@@ -34,13 +34,13 @@
     "karma-phantomjs-launcher": "~0.1.4",
     "karma": "~0.12.31",
     "grunt-karma": "~0.10.1",
-    "protractor": "~1.0.0"
+    "protractor": "~2.1.0"
   },
   "engines": {
     "node": ">=0.10.0"
   },
   "scripts": {
-    "install": "node node_modules/grunt-protractor-runner/node_modules/protractor/bin/webdriver-manager update",
+    "install": "node node_modules/.bin/webdriver-manager update",
     "update-webdriver": "webdriver-manager update",
     "test": "grunt test"
   }

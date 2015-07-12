@@ -1,0 +1,12 @@
+{
+    "name": "Kukuriku",
+    "logo": "images/restaurant/novi-sad/kukuriku.png",
+    "phone": "063 593753",
+    "delivery": true,
+    "address": "Bulevar Despota Stefana 5, Novi Sad",
+    "url": "https://www.facebook.com/pages/Kukuriku/273318666115266",
+    "images": [
+        "images/menu/novi-sad/kukuriku/1.jpg",
+        "images/menu/novi-sad/kukuriku/2.jpg"
+    ]
+}

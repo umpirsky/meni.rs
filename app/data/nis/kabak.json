@@ -1,0 +1,14 @@
+{
+    "name": "Kabak",
+    "logo": "images/restaurant/nis/kabak.png",
+    "phone": "065 335 73 37",
+    "delivery": true,
+    "address": "Dragiše Cvetkovića 43, Niš",
+    "url": "http://kafanakabak.rs",
+    "images": [
+        "images/menu/nis/kabak/1.jpg",
+        "images/menu/nis/kabak/2.jpg",
+        "images/menu/nis/kabak/3.jpg",
+        "images/menu/nis/kabak/4.jpg"
+    ]
+}

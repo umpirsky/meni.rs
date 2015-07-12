@@ -1,0 +1,16 @@
+{
+    "name": "Kluzzo",
+    "logo": "images/restaurant/nis/kluzzo.jpg",
+    "phone": "069 3450 330",
+    "delivery": false,
+    "address": "Nikole Pasića BB, Niš",
+    "url": "http://www.kluzzo.com",
+    "images": [
+        "images/menu/nis/kluzzo/1.jpg",
+        "images/menu/nis/kluzzo/2.jpg",
+        "images/menu/nis/kluzzo/3.jpg",
+        "images/menu/nis/kluzzo/4.jpg",
+        "images/menu/nis/kluzzo/5.jpg",
+        "images/menu/nis/kluzzo/6.jpg"
+    ]
+}

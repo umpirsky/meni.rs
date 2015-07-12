@@ -1,0 +1,26 @@
+{
+    "name": "The Camelot",
+    "logo": "images/restaurant/novi-sad/the-camelot.png",
+    "phone": "021 528 095",
+    "delivery": false,
+    "address": "Sremska 9, Novi Sad",
+    "url": "http://www.thecamelot.rs",
+    "images": [
+        "images/menu/novi-sad/the-camelot/1.jpg",
+        "images/menu/novi-sad/the-camelot/2.jpg",
+        "images/menu/novi-sad/the-camelot/3.jpg",
+        "images/menu/novi-sad/the-camelot/4.png",
+        "images/menu/novi-sad/the-camelot/5.jpg",
+        "images/menu/novi-sad/the-camelot/6.jpg",
+        "images/menu/novi-sad/the-camelot/7.jpg",
+        "images/menu/novi-sad/the-camelot/8.jpg",
+        "images/menu/novi-sad/the-camelot/9.jpg",
+        "images/menu/novi-sad/the-camelot/10.jpg",
+        "images/menu/novi-sad/the-camelot/11.jpg",
+        "images/menu/novi-sad/the-camelot/12.jpg",
+        "images/menu/novi-sad/the-camelot/13.png",
+        "images/menu/novi-sad/the-camelot/14.jpg",
+        "images/menu/novi-sad/the-camelot/15.jpg",
+        "images/menu/novi-sad/the-camelot/16.jpg"
+    ]
+}

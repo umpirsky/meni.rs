@@ -1,0 +1,12 @@
+{
+    "name": "Borsalino",
+    "logo": "images/restaurant/novi-sad/borsalino.jpg",
+    "phone": "021 468 088, 021 63 65 266",
+    "delivery": false,
+    "address": "Vojvodjanska 24, Novi Sad",
+    "url": "http://www.borsalino.rs",
+    "images": [
+        "images/menu/novi-sad/borsalino/1.jpg",
+        "images/menu/novi-sad/borsalino/2.jpg"
+    ]
+}

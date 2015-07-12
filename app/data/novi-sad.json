@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Hedansa",
+        "slug": "hedansa",
+        "logo": "images/restaurant/novi-sad/hedansa.png",
+        "tags": "pica, salata, giros, sendvič"
+    },
+    {
+        "name": "Apetit bar",
+        "slug": "apetit-bar",
+        "logo": "images/restaurant/novi-sad/apetit-bar.jpg",
+        "tags": "supa, salata, rižoto, sir, pasulj, lazanje, grašak, omlet, pasta, sendvič, boranija, burger, palačinka"
+    },
+    {
+        "name": "The Camelot",
+        "slug": "the-camelot",
+        "logo": "images/restaurant/novi-sad/the-camelot.png",
+        "tags": "kobasica, ćevap, hot dog"
+    },
+    {
+        "name": "Kuća kobasice",
+        "slug": "kuca-kobasice",
+        "logo": "images/restaurant/novi-sad/kuca-kobasice.png",
+        "tags": "kobasica, ćevap, hot dog"
+    },
+    {
+        "name": "Balans palačinke",
+        "slug": "balans-palacinke",
+        "logo": "images/restaurant/novi-sad/balans-palacinke.jpg",
+        "tags": "palačinka, sendvič"
+    },
+    {
+        "name": "City Life",
+        "slug": "city-life",
+        "logo": "images/restaurant/novi-sad/city-life.jpg",
+        "tags": "palačinka, salata, roštilj, pljeskavica, ćevap, piletina, rižoto, omlet"
+    },
+    {
+        "name": "Minuta",
+        "slug": "minuta",
+        "logo": "images/restaurant/novi-sad/minuta.png",
+        "tags": "salata, sendvič, burger, giros, pica, palačinka, sladoled"
+    },
+    {
+        "name": "Amigos",
+        "slug": "amigos",
+        "logo": "images/restaurant/novi-sad/amigos.png",
+        "tags": "krilca, pomfrit, piletina"
+    },
+    {
+        "name": "Rasputin",
+        "slug": "rasputin",
+        "logo": "images/restaurant/novi-sad/rasputin.jpg",
+        "tags": "pica, palačinka, sendvič"
+    },
+    {
+        "name": "Moj sendvič",
+        "slug": "moj-sendvic",
+        "logo": "images/restaurant/novi-sad/moj-sendvic.png",
+        "tags": "sendvič, salata"
+    },
+    {
+        "name": "Kukuriku",
+        "slug": "kukuriku",
+        "logo": "images/restaurant/novi-sad/kukuriku.png",
+        "tags": "mekike, pomfrit, sendvič, piletina, pljeskavica, supa"
+    },
+    {
+        "name": "Borsalino",
+        "slug": "borsalino",
+        "logo": "images/restaurant/novi-sad/borsalino.jpg",
+        "tags": "pica, pasta, čorba, lazanje, salata, palačinka"
+    },
+    {
+        "name": "Pinokio",
+        "slug": "pinokio",
+        "logo": "images/restaurant/novi-sad/pinokio.jpg",
+        "tags": "palačinka"
+    },
+    {
+        "name": "Pizza Servis Roma",
+        "slug": "pizza-servis-roma",
+        "logo": "images/restaurant/novi-sad/pizza-servis-roma.png",
+        "tags": "pica, salata, palačinka, pasta, sendvič, roštilj"
+    },
+    {
+        "name": "Dizni",
+        "slug": "dizni",
+        "logo": "images/restaurant/novi-sad/dizni.jpg",
+        "tags": "pica, salata, palačinka, pasta"
+    },
+    {
+        "name": "Makao",
+        "slug": "makao",
+        "logo": "images/restaurant/novi-sad/makao.png",
+        "tags": "piletina, svinjetina, junetina, pirinač"
+    },
+    {
+        "name": "Kod Jefte",
+        "slug": "kod-jefte",
+        "logo": "images/restaurant/novi-sad/kod-jefte.png",
+        "tags": "roštilj, pljeskavica, batak, file, ražnjić, kobasica, vešalica, ćevap"
+    },
+    {
+        "name": "Nacho Sombrero Bar",
+        "slug": "nacho-sombrero-bar",
+        "logo": "images/restaurant/novi-sad/nacho-sombrero-bar.png",
+        "tags": "sendvič, salata, supa, čorba"
+    }
+]

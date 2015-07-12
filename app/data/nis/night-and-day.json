@@ -1,0 +1,18 @@
+{
+    "name": "Night & Day",
+    "logo": "images/restaurant/nis/night-and-day.png",
+    "phone": "061 22 44 442, 018 244 396",
+    "delivery": true,
+    "address": "Obrenovićeva 31, Niš",
+    "url": "http://nightandday.rs",
+    "images": [
+        "images/menu/nis/night-and-day/1.jpg",
+        "images/menu/nis/night-and-day/2.jpg",
+        "images/menu/nis/night-and-day/3.jpg",
+        "images/menu/nis/night-and-day/4.jpg",
+        "images/menu/nis/night-and-day/5.jpg",
+        "images/menu/nis/night-and-day/6.jpg",
+        "images/menu/nis/night-and-day/7.jpg",
+        "images/menu/nis/night-and-day/8.jpg"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Cezar",
+    "logo": "images/restaurant/nis/cezar.png",
+    "phone": "018 588 588",
+    "delivery": true,
+    "address": "Nikole Pašića 47a, Niš",
+    "url": "http://cezar.rs",
+    "images": [
+        "images/menu/nis/cezar/1.jpg",
+        "images/menu/nis/cezar/2.jpg",
+        "images/menu/nis/cezar/3.jpg",
+        "images/menu/nis/cezar/4.jpg"
+    ]
+}
