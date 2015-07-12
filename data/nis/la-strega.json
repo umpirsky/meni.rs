@@ -1,0 +1,16 @@
+{
+    "name": "La Strega",
+    "logo": "images/restaurant/nis/la-strega.png",
+    "phone": "065 290 22 22, 018 29 22 22",
+    "delivery": true,
+    "address": "Nikole Pašića 1, Niš",
+    "url": "http://www.picerijalastrega.rs",
+    "images": [
+        "images/menu/nis/la-strega/1.jpg",
+        "images/menu/nis/la-strega/2.jpg",
+        "images/menu/nis/la-strega/3.jpg",
+        "images/menu/nis/la-strega/4.jpg",
+        "images/menu/nis/la-strega/5.jpg",
+        "images/menu/nis/la-strega/6.jpg"
+    ]
+}

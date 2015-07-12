@@ -1,0 +1,11 @@
+{
+    "name": "Go-Go",
+    "logo": "images/restaurant/nis/go-go.png",
+    "phone": "018 510 122",
+    "delivery": true,
+    "address": "Drvarska 7, Niš",
+    "url": "https://www.facebook.com/gogopicerija",
+    "images": [
+        "images/menu/nis/go-go/1.jpg"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Gyros 4U",
+    "logo": "images/restaurant/nis/gyros4u.png",
+    "phone": "063 812 61 33, 018 209 329",
+    "delivery": true,
+    "address": "Nikole Pašića 31, Niš",
+    "url": "https://www.facebook.com/Gyros4u",
+    "images": [
+        "images/menu/nis/gyros4u/1.jpg",
+        "images/menu/nis/gyros4u/2.jpg"
+    ]
+}

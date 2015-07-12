@@ -1,0 +1,16 @@
+{
+    "name": "Minuta",
+    "logo": "images/restaurant/novi-sad/minuta.png",
+    "phone": "021 522 133",
+    "delivery": true,
+    "address": "Sutjeska 2, Novi Sad",
+    "url": "http://www.minuta.rs",
+    "images": [
+        "images/menu/novi-sad/minuta/1.jpg",
+        "images/menu/novi-sad/minuta/2.jpg",
+        "images/menu/novi-sad/minuta/3.jpg",
+        "images/menu/novi-sad/minuta/4.jpg",
+        "images/menu/novi-sad/minuta/5.jpg",
+        "images/menu/novi-sad/minuta/6.jpg"
+    ]
+}

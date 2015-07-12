@@ -1,0 +1,11 @@
+{
+    "name": "Roštiljko",
+    "logo": "images/restaurant/nis/rostiljko.png",
+    "phone": "060 027 17 70, 018 271 770",
+    "delivery": true,
+    "address": "Uroša Predića 14, Niš",
+    "url": "http://www.rostiljko.rs",
+    "images": [
+        "images/menu/nis/rostiljko/1.jpg"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Kuća kobasice",
+    "logo": "images/restaurant/novi-sad/kuca-kobasice.png",
+    "phone": "061 14 07 507",
+    "delivery": true,
+    "address": "Trg Republike 6, Novi Sad",
+    "url": "https://www.facebook.com/kucakobasice",
+    "images": [
+        "images/menu/novi-sad/kuca-kobasice/1.jpg"
+    ]
+}

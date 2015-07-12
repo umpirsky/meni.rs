@@ -1,0 +1,12 @@
+{
+    "name": "Pinokio",
+    "logo": "images/restaurant/novi-sad/pinokio.jpg",
+    "phone": "065 566 13 34",
+    "delivery": true,
+    "address": "Stražilovska 1, Novi Sad",
+    "url": "https://www.facebook.com/pages/Pala%C4%8Dinkarnica-Pinokio/312948898812663",
+    "images": [
+        "images/menu/novi-sad/pinokio/1.jpg",
+        "images/menu/novi-sad/pinokio/2.jpg"
+    ]
+}

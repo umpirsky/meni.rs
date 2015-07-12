@@ -1,0 +1,28 @@
+{
+    "name": "Pleasure",
+    "logo": "images/restaurant/nis/pleasure.png",
+    "phone": "062 254 315, 018 517 551",
+    "delivery": false,
+    "address": "Kopitareva 7, Niš",
+    "url": "http://www.pleasure.rs",
+    "images": [
+        "images/menu/nis/pleasure/1.jpg",
+        "images/menu/nis/pleasure/2.jpg",
+        "images/menu/nis/pleasure/3.jpg",
+        "images/menu/nis/pleasure/4.jpg",
+        "images/menu/nis/pleasure/5.jpg",
+        "images/menu/nis/pleasure/6.jpg",
+        "images/menu/nis/pleasure/7.jpg",
+        "images/menu/nis/pleasure/8.jpg",
+        "images/menu/nis/pleasure/9.jpg",
+        "images/menu/nis/pleasure/10.jpg",
+        "images/menu/nis/pleasure/11.jpg",
+        "images/menu/nis/pleasure/12.jpg",
+        "images/menu/nis/pleasure/13.jpg",
+        "images/menu/nis/pleasure/14.jpg",
+        "images/menu/nis/pleasure/15.jpg",
+        "images/menu/nis/pleasure/16.jpg",
+        "images/menu/nis/pleasure/17.jpg",
+        "images/menu/nis/pleasure/18.jpg"
+    ]
+}

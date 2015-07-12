@@ -1,0 +1,11 @@
+{
+    "name": "Moj sendvič",
+    "logo": "images/restaurant/novi-sad/moj-sendvic.png",
+    "phone": "064 91 40 200",
+    "delivery": true,
+    "address": "Bulevar Oslobođenja 86, Novi Sad",
+    "url": "https://www.facebook.com/MOJsendvic",
+    "images": [
+        "images/menu/novi-sad/moj-sendvic/1.jpg"
+    ]
+}

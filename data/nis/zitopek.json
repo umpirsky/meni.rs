@@ -1,0 +1,12 @@
+{
+    "name": "Žitopek",
+    "logo": "images/restaurant/nis/zitopek.png",
+    "phone": "018 507 721",
+    "delivery": false,
+    "address": "Dimitrija Tucovića 51, Niš",
+    "url": "http://www.zitopek.rs",
+    "images": [
+        "images/menu/nis/zitopek/1.jpg",
+        "images/menu/nis/zitopek/2.jpg"
+    ]
+}

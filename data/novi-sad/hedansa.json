@@ -1,0 +1,14 @@
+{
+    "name": "Hedansa",
+    "logo": "images/restaurant/novi-sad/hedansa.png",
+    "phone": "061 43 999 14, 021 63 999 14",
+    "delivery": true,
+    "address": "Rumenačka 51, Novi Sad",
+    "url": "http://picerijahedansa.rs",
+    "images": [
+        "images/menu/novi-sad/hedansa/1.jpg",
+        "images/menu/novi-sad/hedansa/2.jpg",
+        "images/menu/novi-sad/hedansa/3.jpg",
+        "images/menu/novi-sad/hedansa/4.jpg"
+    ]
+}

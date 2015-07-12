@@ -1,0 +1,12 @@
+{
+    "name": "Compass",
+    "logo": "images/restaurant/nis/compass.png",
+    "phone": "060 74 00 141, 018 524 812",
+    "delivery": true,
+    "address": "Ćirila i Metodija 3, Niš",
+    "url": "https://www.facebook.com/compassnini",
+    "images": [
+        "images/menu/nis/compass/1.jpg",
+        "images/menu/nis/compass/2.jpg"
+    ]
+}
