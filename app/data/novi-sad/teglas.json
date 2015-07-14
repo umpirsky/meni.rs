@@ -1,0 +1,20 @@
+{
+    "name": "Tegla's",
+    "logo": "images/restaurant/novi-sad/teglas.png",
+    "phone": "069 1 834 527",
+    "delivery": true,
+    "address": "Narodnog Fronta 25, Novi Sad",
+    "url": "http://www.teglas.rs",
+    "images": [
+        "images/menu/novi-sad/teglas/1.jpg",
+        "images/menu/novi-sad/teglas/2.jpg",
+        "images/menu/novi-sad/teglas/3.jpg",
+        "images/menu/novi-sad/teglas/4.png",
+        "images/menu/novi-sad/teglas/5.jpg",
+        "images/menu/novi-sad/teglas/6.png",
+        "images/menu/novi-sad/teglas/7.jpg",
+        "images/menu/novi-sad/teglas/8.jpg",
+        "images/menu/novi-sad/teglas/9.jpg",
+        "images/menu/novi-sad/teglas/10.jpg"
+    ]
+}
